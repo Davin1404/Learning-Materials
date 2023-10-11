@@ -203,6 +203,7 @@ It allows extensibility that specific types of check-outs can be created which r
 
 ## Aggregation (“has a”)
 ### Definition 
+*(empty)*
 
 ### Advantages of using ***Aggregation***  
 Aggregation allows code ***reuse and reduce amount of coding*** as the code for the (e.g., in M19 the Swimmer object) object has ***already existed***.  
