@@ -216,6 +216,51 @@ Aggregation increases ***dependencies*** that a change in the owner class (e.g.,
 
 Using aggregation can lead to more complex code; when accessing functions of the aggregated object;
 
+## Dependencies (“uses a”)
+### Definition 
+*(empty)*  
+
+### Advantages of using ***Dependencies***  
+*(empty)*  
+
+
+### Disadvantages of using ***Dependencies***  
+*(empty)*  
+
+>#### The reasons for keeping dependencies to a minimum
+>
+>Changes in one class in a dependency will affect the other classes in this dependency;  
+>This may cause programs using the second class not to function;
+>
+>Reduce maintenance overheads;  
+>As a programmer editing one class would not have to be concerned with other classes;
+
+
+>#### Outline two reasons why the use of multiple programming teams in different locations may be problematic when developing an integrated software solution.
+>   
+>i.	Teams may be located in different countries; therefore, they may have communication issues with each other due to different languages or different time zones;  
+>
+>ii.	Inability to discuss face-to-face which reduces efficiency;  
+>
+>iii.	Problems with different conventions (e.g., data format);  
+>
+>iv. Managing the teams in different locations may be problematic;
+>
+>v.	Teams may not collaborate well due to personality issues;
+>
+>vi.	Development time might increase;
+
+
+>#### N19 17, (f) explain the importance of using coding style and naming conventions when programming
+>i.	Indentation/use of white space  
+>ii.	Annotations   
+>iii.	Meaningful identifiers   
+>iv.	Capitalization conventions  
+>
+>i.	Helps reading and understanding;  
+>ii.	For easer maintenance and extension;    
+>iii.	For better team-work, collaboration and development;
+>iv.	To help with de-bugging;   
 
 
 
