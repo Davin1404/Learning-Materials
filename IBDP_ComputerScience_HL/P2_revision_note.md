@@ -78,3 +78,41 @@ An ***object*** is an abstract entity and its components are data and actions.
 * Encapsulation 
 * Inheritance 
 
+### Advantages  
+* Re-use object;    
+  * Which will speed up development.  
+* Work can be ***split up*** across the sub-topics;  
+  * Which will speed up development.  
+* Sub-groups can re-use objects;  
+  * Without having to re-program.  
+* Quicker to test;  
+  * As each module is small and independent;
+
+### Disadvantages  
+* Unsuitable for ***minor projects***;  
+  * Since OOP increase complexity for little gain.  
+* OOP programs are larger than other programs;  
+  * Add therefore slower.  
+* OOP programs take ***more effort*** to construct
+  * Because of the decomposition needed to achieve abstraction.  
+
+### Advantgaes of using ***modularity***
+* Faster development;  
+  * Because different programming teams can work on ***different modules***.  
+* Easier to debug;  
+  * Because the ***smaller modules*** will have ***fewer mistakes*** than one big program;  
+* Easier to update (in the future);
+  * Because it is easier to ***update a module*** than the full program.  
+
+>#### M16 16, the company wished to update this OOP program and sell it to other hotels. They hire a programmer to make appropriate changes to the program
+>(a)	Outline the responsibilities that the programmer has when updating the program.
+>* Thorough testing;
+>* Cite sources;
+>* Update documentation;
+>
+>(b)	Discuss the features of modern programming languages that enable the program to be sold in other countries 
+>* Unicode;
+>* International character sets;
+>* Changes are straightforward;
+
+---
