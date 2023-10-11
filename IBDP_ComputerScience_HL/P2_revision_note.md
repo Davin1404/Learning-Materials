@@ -1,6 +1,6 @@
 # Paper2 Revision Note
 
-## Class and Object
+# Class and Object
 An ***object*** is an abstract entity and its components are data and actions.  
 
 | Terms | Definitions |
@@ -69,7 +69,7 @@ An ***object*** is an abstract entity and its components are data and actions.
 
 ---
 
-## Object Oriented Programming (OOP)
+# Object Oriented Programming (OOP)
 ### Definition
  A computer programming model that organizes software design around data, or ***objects***, rather than functions and logic. 
 
@@ -117,14 +117,16 @@ An ***object*** is an abstract entity and its components are data and actions.
 
 ## Polymorphism (OOP's features)
 ### Definition 
-### Overload  
+*(empty)*
+
+### ***Overload***  
 The constructors have ***different parameter sets*** (or equivalent);  
 
 ***Compiler*** can differentiate between the two;  
 
 The compiler will execute the constructor whose ***parameter set matches*** the arguments in the constructor call;  
 
-### Override  
+### ***Override***  
 Allows for subclasses to ***alter any superclasses actions*** and make them ***specific to their needs***;  
 
 Method overrding ***redefines a method*** from the inherited class;  
@@ -150,6 +152,69 @@ In this example, the `getWeight()` method returns the weight of each piece of `R
 >The constructor methods have a different type of parameters;  
 >During method calling, compiler will determine which of these methods is selected;  
 >By matching up with the parameters;  
+
+### Disadvantages of using ***Polymorphism***  
+*(empty)*
+
+## Encapsulation (OOP'sfeatures)  
+### Definition  
+Encapsulation places ***all attributes and methods*** that relate to a ***particular object;  
+
+Encapsulation allows to make instance variable and method of a class ***private*** to that class;  
+
+So that the main program ***cannot directly access*** the data in an object;  
+
+### Advantages of using ***Encapsulation***  
+Encapsulation places all attributes and methods that relate to a particular object;
+For example, Payment class includes attributes such as the food and drink arrays and method such as `calculateBill()`;
+This provides a clearer view of view/understanding of each section of the problem;
+Which can lead to more efficient programming (faster and less errors);  
+
+Encapsulations ***protects*** the values of the data stored within the object;  
+From ***accidental changes*** made by other classes;  
+For example, quantity in the FoorItem class cannot be altered through another variable called quantity in another class;  
+This allows programmers to select any variable names they wish on choice of variable names; 
+
+### Disadvantages of using ***Encapsulation***  
+*(empty)*
+
+## Inheritance  (OOP’s features) (“is a”)
+### Definition
+A ***new class*** is ***derived*** from an ***existing class***.  
+
+The new class inherits ***all properties and method*** of the other class;   
+
+The derived class is called a subclass, and the original is called a superclass.  
+
+### Advantages of using ***Inheritance***  
+It promotes code reuse;  
+Because the superclass holds common data and actions that are ***shared*** by all newly developed classes;  
+
+It reduces the amount of coding;  
+By allowing sub-classes to ***inherit the methods***;  
+
+It reduces maintenance overhead;  
+Because you only have to ***update the superclass***;  
+
+It allows extensibility that specific types of check-outs can be created which reduces development time, costs and testing. 
+
+### Disadvantages of using ***Inheritance***  
+*(empty)*
+
+## Aggregation (“has a”)
+### Definition 
+
+### Advantages of using ***Aggregation***  
+Aggregation allows code ***reuse and reduce amount of coding*** as the code for the (e.g., in M19 the Swimmer object) object has ***already existed***.  
+
+Aggregation allows for the ***better organization*** of objects as the variables of the aggregated data will be kept in the class in which it belongs.
+
+
+### Disadvantages of using ***Aggregation***  
+Aggregation increases ***dependencies*** that a change in the owner class (e.g., in M19 the Swimmer class) could have an unexpected consequence for the subclass (e.g., in M19 the Race class);
+
+Using aggregation can lead to more complex code; when accessing functions of the aggregated object;
+
 
 
 
