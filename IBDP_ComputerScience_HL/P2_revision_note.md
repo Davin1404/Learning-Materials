@@ -115,4 +115,42 @@ An ***object*** is an abstract entity and its components are data and actions.
 >* International character sets;
 >* Changes are straightforward;
 
+## Polymorphism (OOP's features)
+### Definition 
+### Overload  
+The constructors have ***different parameter sets*** (or equivalent);  
+
+***Compiler*** can differentiate between the two;  
+
+The compiler will execute the constructor whose ***parameter set matches*** the arguments in the constructor call;  
+
+### Override  
+Allows for subclasses to ***alter any superclasses actions*** and make them ***specific to their needs***;  
+
+Method overrding ***redefines a method*** from the inherited class;  
+
+### Advantages of using ***Polymorphism***  
+Polymorphism allows an external program to use the same method actions on all subclasses;
+
+By allowing overridden functions in child classes to add only the code that is needed for the unique processing of that sub-class;
+
+In this example, the `getWeight()` method returns the weight of each piece of `RollingStock` . In the case of a wagon, the additional computation needed to add the weight of the cargo is added;
+
+>#### M19 15, (c) outline how method overriding can help to create the new class FinalsOnlyEvent
+>* Method overriding redefines a method from the inherited class;
+>
+>* The constructor could only instantiate the finals object;
+>
+>* The method `addSwimmers()` could fill finals directly;
+>
+>* The method `fillFinals()` could do nothing;
+
+>#### M18 15(b) with reference to the two methods with the same name in the Points class, explain the OOP features that makes it possible to successfully implement either of these methods.
+>Overloading;  
+>The constructor methods have a different type of parameters;  
+>During method calling, compiler will determine which of these methods is selected;  
+>By matching up with the parameters;  
+
+
+
 ---
