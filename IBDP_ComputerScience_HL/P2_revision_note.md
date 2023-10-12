@@ -104,6 +104,14 @@ An ***object*** is an abstract entity and its components are data and actions.
 * Easier to update (in the future);
   * Because it is easier to ***update a module*** than the full program.  
 
+>#### N15 (d) In relation to the Doctor object, outline the need for extended character sets as used by modern programming languages.  
+>
+>Different languages use different characters, which are not included in the basic 8-bit ***ASCII*** character set; 
+> 
+>Extended character sets (like ***Unicode***) include all possible characters from all languages;  
+>
+>For example, the doctor’s name could not be spelled correctly in ***ASCII***;  
+
 >#### M16 16, the company wished to update this OOP program and sell it to other hotels. They hire a programmer to make appropriate changes to the program
 >(a)	Outline the responsibilities that the programmer has when updating the program.
 >* Thorough testing;
