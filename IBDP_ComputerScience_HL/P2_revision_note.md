@@ -270,6 +270,30 @@ Using aggregation can lead to more complex code; when accessing functions of the
 >iii.	For better team-work, collaboration and development;
 >iv.	To help with de-bugging;   
 
-
+>#### Describe one feature of modern programming languages that allow the wide range of students’ names to be represented correctly.  
+>	
+>Modern programming languages use Unicode; which uses more bits than ASCII; This allows the use of non-Latin languages.  
 
 ---
+
+# Data Structure
+
+## Stack
+FILO (first in last out) data structure.  
+
+>#### Applications:  
+>The system stack stores return data of interrupted processes; The last interrupted process is the first to resume.  
+
+## Queue
+FIFO (first in first out) data structure, only allowss addition at the end and removal from the front.  
+
+### Advantages of using "***Queue***"
+*(empty)*
+
+### Disadvantages of using "***Queue***"
+This is not sufficient in scenarios that elements can ***change freely***;  
+Because it is a ***FIFO data structure*** / only allows addition at the end and removal from the front;
+
+It has no ***fixed length*** which could lead to ***unmanageable***;
+
+## ArrayList 
