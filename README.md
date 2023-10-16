@@ -13,4 +13,7 @@ A place for me to put some note
 8. 對於變量名稱應當使用代碼塊，例如 `example`。
 9. 文檔末尾總是留一個空行。
 
+# Mathematics in R Markdown
+https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
+
 
