@@ -3,7 +3,7 @@
 Levels of climate change risk and vulnerability will vary according to a ***person's location***, ***wealth***, ***social diferences*** (age, gender, education) and ***risk perception***.  
 
 ## Disparities in exposure to climate change  
-**Some population groups are more vulnerable to climate change than others.**  
+Some population groups are more vulnerable to climate change than others.
 * The elderly
 * Those with disability
 * The poor
@@ -56,4 +56,74 @@ Levels of climate change risk and vulnerability will vary according to a ***pers
 * Deterioration of coral reefs
 * Out-migration of people 
 * Loss of income as a result of a decline in economic activities and infrastructure  
+
+A number of index's are used that attempt to measure ***exposure and vulnerability*** to climate change.  
+
+This index takes into both ***the exposure of a population to the hazards*** of climate change as well as its ***ability to respond and show resilience***. 
+
+* Change of cereal yields  
+* Change of marine biodiversity 
+* Dam capacity
+* Rural population 
+* Change of flood hazard
+* Child malnutrition 
+* Age dependency ratio
+* Medical staff
+* Access to reliable Drinking water
+* Change of sea level rise impacts
+* Paved roads
+* Change in vector-born diseases 
+* Electricity access
+* Rule of law
+* Slum population 
+* Education
+* Innovation 
+* ...
+
+Most at risk countries are distributed in ***Africa*** and ***across South*** and ***South East Asia***.  
+
+### Factors that influence vulnerability  
+Climate change places stress on countries through **environmental degradation** and *expisure to environmental risks*, that include extreme weather events, sea level rise, food and water insecurity.   
+
+The exposure to risk is compounded by **environmental** and *socio-economic* factors within the country.  
+
+The index refers to ***vulnerability indices*** that include:
+* food
+* water
+* health
+* ecosystem services
+* human habitat 
+* infrastructure
+
+It also refers to *readiness indices*, related to adaptation capacity that include: 
+* economic cohesion
+* governance cohesion
+* social cohesion
+
+An intersting theoretical model concerning vulnerability and risk that is helpful can be found in the ***Pressure-Release Model***.
+
+![model](https://www.researchgate.net/profile/Ebba-Brink/publication/325145299/figure/fig2/AS:626446502465536@1526367893006/The-Pressure-and-Release-PAR-model-The-PAR-model-explains-how-disasters-here-adverse.png)
+
+### Stage 1 Root Casuse
+Issues of ***governance and economic development***.  
+
+### Stage 2 Dynamic Pressures
+Lack of ***effective institutions*** and agencies.  
+Processes of ***rapid change*** such as: 
+1. Population growth
+2. Migration
+3. Changes in land used, such as deforestation. 
+
+### Stage 3 Unsafe Conditions 
+***Environmental*** conditions, such as:
+1. Landslides
+2. Saline intrustion 
+3. Exposure to disease
+   
+***Social*** conditions, such as:
+1. Lack of trust in authorities
+2. High levels of poverty 
+3. Poor social cohesion
+
+These factors all impact on ***the resilience of a community*** to respond and recover from climate change events. When these factors combine with a climate disaster such as flood or drought communities are crushed from both sides.  
 
