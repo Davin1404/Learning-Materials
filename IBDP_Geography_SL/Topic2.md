@@ -15,7 +15,7 @@ Some population groups are more vulnerable to climate change than others.
   * Indigenous people often live in extreme environments. In addition, they often experience socio-economic problems such as low incomes, poor health and limited access to resources, including water. These factors make them vulnerable to climate change.  
   * Most indigenous population have adapted their lifestyles to their environment, and they are therefore vulnerable to any changes in that environment.  
 
-    > **The Inuit people in the Mackenzie Basin in Canada**
+    > ### Case Study: The Inuit people in the Mackenzie Basin in Canada
     >  
     > A rise in temperature of about 3.5 °C since the 1980s. This has caused permafrost to melt, changing the ecosystem and leading to an increase in landslides and forest fires, and reduced water availability.  
     >
@@ -127,3 +127,11 @@ Processes of ***rapid change*** such as:
 
 These factors all impact on ***the resilience of a community*** to respond and recover from climate change events. When these factors combine with a climate disaster such as flood or drought communities are crushed from both sides.  
 
+>### Case Study: Bangladesh  
+> High *vnlnerability* score (0.546)  
+> Low *readiness* score (0.267)
+> * High rural population
+> * High levels of child mortality 
+> * High water dependency ratio with low levels of economic capacity to store and transport water
+> * High density populations in poorly resourced slums
+> 
