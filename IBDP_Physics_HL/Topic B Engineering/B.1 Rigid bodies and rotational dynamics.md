@@ -84,3 +84,6 @@ $$\therefore \tau = I\alpha \space(I=mr^2)$$
 ## Center of mass
 **Translational acceleration:**  
 When a single force acts on an object through the center of mass, then the object will undergo linear acceleration (a straight line).  
+
+## B.1.6 Newton's thrid law of rotational motion 
+When object A applies a torque to object B, then object B will apply an equal and opposite torque to object A. 
