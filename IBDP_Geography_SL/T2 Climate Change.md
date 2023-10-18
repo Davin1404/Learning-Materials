@@ -1,4 +1,4 @@
-# Global Climate
+# Topic 2 Global Climate
 ## Which factors would contribute to different effects under the same climate change?  
 Levels of climate change risk and vulnerability will vary according to a ***person's location***, ***wealth***, ***social diferences*** (age, gender, education) and ***risk perception***.  
 
@@ -102,7 +102,7 @@ It also refers to *readiness indices*, related to adaptation capacity that inclu
 
 An intersting theoretical model concerning vulnerability and risk that is helpful can be found in the ***Pressure-Release Model***.
 
-![model](https://www.researchgate.net/profile/Ebba-Brink/publication/325145299/figure/fig2/AS:626446502465536@1526367893006/The-Pressure-and-Release-PAR-model-The-PAR-model-explains-how-disasters-here-adverse.png)
+![pressure_release_model](./image/pressure_release_model.png)
 
 ### Stage 1 Root Casuse
 Issues of ***governance and economic development***.  

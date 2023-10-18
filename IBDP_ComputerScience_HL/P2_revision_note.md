@@ -128,23 +128,23 @@ An ***object*** is an abstract entity and its components are data and actions.
 *(empty)*
 
 ### ***Overload***  
-The constructors have ***different parameter sets*** (or equivalent);  
+* The constructors have ***different parameter sets*** (or equivalent);  
 
-***Compiler*** can differentiate between the two;  
+* ***Compiler*** can differentiate between the two;  
 
-The compiler will execute the constructor whose ***parameter set matches*** the arguments in the constructor call;  
+* The compiler will execute the constructor whose ***parameter set matches*** the arguments in the constructor call;  
 
 ### ***Override***  
-Allows for subclasses to ***alter any superclasses actions*** and make them ***specific to their needs***;  
+* Allows for subclasses to ***alter any superclasses actions*** and make them ***specific to their needs***;  
 
-Method overrding ***redefines a method*** from the inherited class;  
+* Method overrding ***redefines a method*** from the inherited class;  
 
 ### Advantages of using ***Polymorphism***  
-Polymorphism allows an external program to use the same method actions on all subclasses;
+* Polymorphism allows an external program to use the same method actions on all subclasses;
 
-By allowing overridden functions in child classes to add only the code that is needed for the unique processing of that sub-class;
+* By allowing overridden functions in child classes to add only the code that is needed for the unique processing of that sub-class;
 
-In this example, the `getWeight()` method returns the weight of each piece of `RollingStock` . In the case of a wagon, the additional computation needed to add the weight of the cargo is added;
+* In this example, the `getWeight()` method returns the weight of each piece of `RollingStock` . In the case of a wagon, the additional computation needed to add the weight of the cargo is added;
 
 >#### M19 15, (c) outline how method overriding can help to create the new class FinalsOnlyEvent
 >* Method overriding redefines a method from the inherited class;
@@ -166,45 +166,55 @@ In this example, the `getWeight()` method returns the weight of each piece of `R
 
 ## Encapsulation (OOP'sfeatures)  
 ### Definition  
-Encapsulation places ***all attributes and methods*** that relate to a ***particular object;  
+* Encapsulation places ***all attributes and methods*** that relate to a ***particular object;  
 
-Encapsulation allows to make instance variable and method of a class ***private*** to that class;  
+* Encapsulation allows to make instance variable and method of a class ***private*** to that class;  
 
-So that the main program ***cannot directly access*** the data in an object;  
+* So that the main program ***cannot directly access*** the data in an object;  
 
 ### Advantages of using ***Encapsulation***  
-Encapsulation places all attributes and methods that relate to a particular object;
-For example, Payment class includes attributes such as the food and drink arrays and method such as `calculateBill()`;
-This provides a clearer view of view/understanding of each section of the problem;
-Which can lead to more efficient programming (faster and less errors);  
+* Encapsulation places all attributes and methods that relate to a particular object;
+  
+  * For example, Payment class includes attributes such as the food and drink arrays and method such as `calculateBill()`;
+  
+  * This provides a clearer view of view/understanding of each section of the problem;
+  
+  * Which can lead to more efficient programming (faster and less errors);  
 
-Encapsulations ***protects*** the values of the data stored within the object;  
-From ***accidental changes*** made by other classes;  
-For example, quantity in the FoorItem class cannot be altered through another variable called quantity in another class;  
-This allows programmers to select any variable names they wish on choice of variable names; 
+* Encapsulations ***protects*** the values of the data stored within the object;  
+  
+  * From ***accidental changes*** made by other classes;  
+  
+  * For example, quantity in the FoorItem class cannot be altered through another variable called quantity in another class; 
+ 
+  * This allows programmers to select any variable names they wish on choice of variable names; 
 
 ### Disadvantages of using ***Encapsulation***  
 *(empty)*
 
 ## Inheritance  (OOP’s features) (“is a”)
 ### Definition
-A ***new class*** is ***derived*** from an ***existing class***.  
+* A ***new class*** is ***derived*** from an ***existing class***.  
 
-The new class inherits ***all properties and method*** of the other class;   
+* The new class inherits ***all properties and method*** of the other class;   
 
-The derived class is called a subclass, and the original is called a superclass.  
+* The derived class is called a subclass, and the original is called a superclass.  
 
 ### Advantages of using ***Inheritance***  
-It promotes code reuse;  
-Because the superclass holds common data and actions that are ***shared*** by all newly developed classes;  
+* It promotes code reuse;  
+  
+  * Because the superclass holds common data and actions that are ***shared*** by all newly developed classes;  
 
-It reduces the amount of coding;  
-By allowing sub-classes to ***inherit the methods***;  
+* It reduces the amount of coding;  
+  
+  * By allowing sub-classes to ***inherit the methods***;  
 
-It reduces maintenance overhead;  
-Because you only have to ***update the superclass***;  
+* It reduces maintenance overhead;  
+  
+  * Because you only have to ***update the superclass***;  
 
-It allows extensibility that specific types of check-outs can be created which reduces development time, costs and testing. 
+* It allows extensibility 
+  * that specific types of check-outs can be created which reduces development time, costs and testing. 
 
 ### Disadvantages of using ***Inheritance***  
 *(empty)*
@@ -214,15 +224,15 @@ It allows extensibility that specific types of check-outs can be created which r
 *(empty)*
 
 ### Advantages of using ***Aggregation***  
-Aggregation allows code ***reuse and reduce amount of coding*** as the code for the (e.g., in M19 the Swimmer object) object has ***already existed***.  
+* Aggregation allows code ***reuse and reduce amount of coding*** as the code for the (e.g., in M19 the Swimmer object) object has ***already existed***.  
 
-Aggregation allows for the ***better organization*** of objects as the variables of the aggregated data will be kept in the class in which it belongs.
+* Aggregation allows for the ***better organization*** of objects as the variables of the aggregated data will be kept in the class in which it belongs.
 
 
 ### Disadvantages of using ***Aggregation***  
-Aggregation increases ***dependencies*** that a change in the owner class (e.g., in M19 the Swimmer class) could have an unexpected consequence for the subclass (e.g., in M19 the Race class);
+* Aggregation increases ***dependencies*** that a change in the owner class (e.g., in M19 the Swimmer class) could have an unexpected consequence for the subclass (e.g., in M19 the Race class);
 
-Using aggregation can lead to more complex code; when accessing functions of the aggregated object;
+* Using aggregation can lead to more complex code; when accessing functions of the aggregated object;
 
 ## Dependencies (“uses a”)
 ### Definition 
@@ -291,9 +301,48 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 *(empty)*
 
 ### Disadvantages of using "***Queue***"
-This is not sufficient in scenarios that elements can ***change freely***;  
-Because it is a ***FIFO data structure*** / only allows addition at the end and removal from the front;
-
-It has no ***fixed length*** which could lead to ***unmanageable***;
+* This is not sufficient in scenarios that elements can ***change freely***;  
+* Because it is a ***FIFO data structure*** / only allows addition at the end and removal from the front;
+* It has no ***fixed length*** which could lead to ***unmanageable***;
 
 ## ArrayList 
+
+### Advantages of using "***ArrayList***"
+* Memory space for the exact number of objects can be assigned.
+    
+* There is no need to determine ArrayList size.  
+
+### Disadvantages of using "***ArrayList  ***"
+* Using a ***fixed*** amount of memory is inefficient;  
+  * as it will ***re-size*** itself when more entries are required.  
+
+* ***Overflow*** is a problem;  
+  * as there is a ***fixed*** amounts of element allowed.  
+
+## LinkedList
+
+### Advantages of using "***LinkedList***"
+* It is ***easier*** for a linkedlist to ***add and delete*** elements;  
+
+  * as ***changing pointers*** is only needed;
+  * Adding to the front or back just requires adjusting pointers.  
+  
+* ***Efficiently uses memory*** as needed;  
+
+  * as only the *required* number of locations will be needed.  
+
+
+### Disadvantages of using "***LinkedList***"
+* It will be ***slower*** to ***locate to a specific element***;  
+  
+  * as a *linear search* will be needed to be compared to *direct access* with the array.  s
+
+* ***Only allow sequential access*** 
+
+### Replace a data structure to ***LinkedList***
+* Modify the class to have a “next” member variable (next element pointer);  
+  
+* Modify the first class to have a “first” member variable (begin element pointer);
+* Modify the `add()` and `remove()` methods to implement the linked list;
+
+
