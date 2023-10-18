@@ -45,7 +45,7 @@ $$Unit: kg\space m^2$$
 
 $$I = \sum mr^2$$
 
-## B.1.3 Torque ($\tau$) - the turning effect of the force  
+## B.1.3 Torque ( $\tau$ ) - the turning effect of the force  
 ***Equation***:   
 Torque of a force = force $\times$ perpendicualr distance from he line of action the force to a point
 
@@ -61,7 +61,7 @@ Characteristics of a ***couple*** (a pair of forces)
 torque of a couple = one of the forces $\times$ perpendicular distance between the forces
 $$e.g.\space F_1r + F_2r=2F_tr=Fd$$
 
-## B.1.4 Newton;s first law for angular motion-rotational equilibrium  
+## B.1.4 Newton's first law for angular motion-rotational equilibrium  
 An object countinues to remain stationary or to move at a ***constant*** *angular velocity* ($\alpha = 0$) unless an ***external torque*** acts on it.  
 
 $$\sum \tau = 0$$
