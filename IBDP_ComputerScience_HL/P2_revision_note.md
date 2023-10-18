@@ -289,12 +289,15 @@ An ***object*** is an abstract entity and its components are data and actions.
 # Data Structure
 
 ## Stack
+
+### Definition
 FILO (first in last out) data structure.  
 
 >#### Applications:  
 >The system stack stores return data of interrupted processes; The last interrupted process is the first to resume.  
 
 ## Queue
+### Definition
 FIFO (first in first out) data structure, only allowss addition at the end and removal from the front.  
 
 ### Advantages of using "***Queue***"
@@ -307,12 +310,15 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 
 ## ArrayList 
 
+### Definition
+*(empty)*
+
 ### Advantages of using "***ArrayList***"
 * Memory space for the exact number of objects can be assigned.
     
 * There is no need to determine ArrayList size.  
 
-### Disadvantages of using "***ArrayList  ***"
+### Disadvantages of using "***ArrayList***"
 * Using a ***fixed*** amount of memory is inefficient;  
   * as it will ***re-size*** itself when more entries are required.  
 
@@ -320,6 +326,9 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
   * as there is a ***fixed*** amounts of element allowed.  
 
 ## LinkedList
+
+### Definition
+*(empty)*
 
 ### Advantages of using "***LinkedList***"
 * It is ***easier*** for a linkedlist to ***add and delete*** elements;  
@@ -342,7 +351,65 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 ### Replace a data structure to ***LinkedList***
 * Modify the class to have a “next” member variable (next element pointer);  
   
-* Modify the first class to have a “first” member variable (begin element pointer);
+* Modify the first class to have a “first” member variable (begin element pointer);  
 * Modify the `add()` and `remove()` methods to implement the linked list;
+
+## Binary Tree
+
+### Definition
+*(empty)*
+
+### Advantages of using "***Binary Tree***"
+* Binary search is ***much faster*** than *sequential search*;  
+  
+* Because it reduces the search space by half in each time;
+
+
+### Disadvantages of using "***Binary Tree***"
+* Binary search is not ***applicable*** to ***unsorted*** data sets;  
+
+  * Because the data must be sorted first which adds to computational cost; 
+
+* It can be difficult to manipulate pointers or references in a binary tree; 
+
+  * Which makes it more difficult to add or delete objects in a binary tree;
+
+>#### M19 17, (b) outline one reason why a linked list may be more suitable than a binary tree in this particular situation 
+>* The ease of which pointers or references can be manipulated in a linked list;   
+>* Allows easier addition/deletion of objects (compared to a binary tree);  
+>* It can be difficult to manipulate pointers or references in a binary tree; 
+>* Which makes it more difficult to add or delete objects in a binary tree;
+
+>#### N17 18, (c) Explain how a binary tree structure would allow a more efficient search for the Item object.
+>The pl array/Item objects could be read into a binary tree;
+
+> * And placed in order of the item code;
+> * (Successive) comparisons between the search item and tree item will reduce the search space by a half (each time);
+> * Which results in a faster search than a linear search/ `Olog(n)` is better than `O(n)`;
+> * As a linear search might have to loop through the whole list;
+
+## Recursive
+### Definition 
+When a method calls on itself;  
+With a changing parameter;  
+There is a base (terminating) case;  
+
+The solution repeats the same algorithm;  
+With a changing parameter set;  
+Until a terminating case is reached; 
+
+> #### M19 17, (b) outline one reason why the use of a recursive method may be inappropriate for linked lists
+>* For a *large* linked list, this would require a *large number* of recursive calls which may cause ***stack overflow***;
+>* A linked list only allows for sequential access; Therefore, using recursion ***would not*** lead to any gains in ***efficiency***;
+
+>#### N17 19, (b) without writing code, describe the recursive method palindrome() that returns whether or not a word is a palindrome;
+>* The index of last character <= index of the first character; 
+>* Otherwise, the first and last letters will be compared; 
+>* Returns false if they are not equal; 
+>* If they are equal, ***calls the method again***; 
+>* With, as its parameter, the word stripped of its first and last letters (can use indices);
+
+
+
 
 
