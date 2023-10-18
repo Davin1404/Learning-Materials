@@ -80,3 +80,7 @@ $$\therefore Fr=ma_tr$$
 $$\therefore \tau = m\alpha r^2\space(a_t=\alpha r)$$
 $$\tau = mr^2\alpha$$
 $$\therefore \tau = I\alpha \space(I=mr^2)$$
+
+## Center of mass
+**Translational acceleration:**  
+When a single force acts on an object through the center of mass, then the object will undergo linear acceleration (a straight line).  
