@@ -71,8 +71,11 @@ When the object is in *rotational equilibrium*:
 ***total clockwise = total anticlockwise torque***. 
 
 ## B.1.5 Newton's second law of angular motion-angular acceleration 
-$$F=ma$$
-$$\therefore Fr=ma_tr$$
-$$\therefore \tau = m\alpha r^2\space(a_t=\alpha r)$$
-$$\tau = mr^2\alpha$$
-$$\therefore \tau = I\alpha \space(I=mr^2)$$
+Equation of resultant torque($\tau$):
+$$\tau = I\alpha$$
+
+>$$F=ma$$
+>$$\therefore Fr=ma_tr$$
+>$$\therefore \tau = m\alpha r^2\space(a_t=\alpha r)$$
+>$$\tau = mr^2\alpha$$
+>$$\therefore \tau = I\alpha \space(I=mr^2)$$
