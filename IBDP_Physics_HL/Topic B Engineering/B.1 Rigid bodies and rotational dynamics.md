@@ -59,7 +59,7 @@ Characteristics of a ***couple*** (a pair of forces)
 
 ***Equation***:  
 torque of a couple = one of the forces $\times$ perpendicular distance between the forces
-> $$e.g.\space F_1r + F_2r=2F_tr=Fd$$
+$$e.g.\space F_1r + F_2r=2F_tr=Fd$$
 
 ## B.1.4 Newton;s first law for angular motion-rotational equilibrium  
 An object countinues to remain stationary or to move at a ***constant*** *angular velocity* ($\alpha = 0$) unless an ***external torque*** acts on it.  
@@ -74,8 +74,9 @@ When the object is in *rotational equilibrium*:
 Equation of resultant torque($\tau$):
 $$\tau = I\alpha$$
 
->$$F=ma$$
->$$\therefore Fr=ma_tr$$
->$$\therefore \tau = m\alpha r^2\space(a_t=\alpha r)$$
->$$\tau = mr^2\alpha$$
->$$\therefore \tau = I\alpha \space(I=mr^2)$$
+*Derivative process*:
+$$F=ma$$
+$$\therefore Fr=ma_tr$$
+$$\therefore \tau = m\alpha r^2\space(a_t=\alpha r)$$
+$$\tau = mr^2\alpha$$
+$$\therefore \tau = I\alpha \space(I=mr^2)$$
