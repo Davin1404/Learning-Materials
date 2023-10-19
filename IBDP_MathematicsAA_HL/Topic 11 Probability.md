@@ -19,7 +19,7 @@ $$Var(X)=\int_{-\infty}^{\infty} x^2f(x)\space dx-(\int_{-\infty}^{\infty} xf(x)
 Proporties:
 * The function is non-negative, $f(x) \ge 0$.   s
 *  The total area contained between the graph and the horizontal axis is 1. 
-$$P(a<x\le b)=\int_{a}^{b} f(x)\space dx$$
+$$P(a < x\le b)=\int_{a}^{b} f(x)\space dx$$
 $$\int_{-\infty}^{\infty} f(x)\space dx=1$$
 * GDC keywords: `binomPdf(n,p,x)`  , `binomCdf(n,p,q,x)`
 
