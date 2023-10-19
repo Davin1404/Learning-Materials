@@ -87,3 +87,13 @@ When a single force acts on an object through the center of mass, then the objec
 
 ## B.1.6 Newton's thrid law of rotational motion 
 When object A applies a torque to object B, then object B will apply an equal and opposite torque to object A. 
+
+## B.1.7 Angular momentum
+The product of a body's *moment* of ***inertia*** and its *angular velocity*.  
+
+***Equations***:
+$$L=I\omega$$
+$$Unit: kg\space m^2 \space rad \space s^{-1}$$
+
+***Angular momentum conservation***:  
+$$\Sigma I_i \omega_i=\Sigma I_f\omega_f$$
