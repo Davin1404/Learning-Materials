@@ -19,8 +19,8 @@ $$Var(X)=\int_{-\infty}^{\infty} x^2f(x)\; dx-(\int_{-\infty}^{\infty} xf(x)\; d
 Proporties:
 * The function is non-negative, $f(x) \ge 0$.   s
 *  The total area contained between the graph and the horizontal axis is 1. 
-   *  $P(a<x\le b)=\int_{a}^{b} f(x)\;dx=1$
-   *  $\int_{-\infty}^{\infty} f(x)\; dx=1$
+$$P(a<x\le b)=\int_{a}^{b} f(x)\;dx=1$$
+$$\int_{-\infty}^{\infty} f(x)\; dx=1$$
 * GDC keywords: `binomPdf(n,p,x)`  , `binomCdf(n,p,q,x)`
 
 ### Expectation and Variance
