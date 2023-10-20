@@ -104,17 +104,17 @@ An intersting theoretical model concerning vulnerability and risk that is helpfu
 
 ![pressure_release_model](./image/pressure_release_model.png)
 
-### Stage 1 Root Casuse
+#### Stage 1 Root Casuse
 Issues of ***governance and economic development***.  
 
-### Stage 2 Dynamic Pressures
+#### Stage 2 Dynamic Pressures
 Lack of ***effective institutions*** and agencies.  
 Processes of ***rapid change*** such as: 
 1. Population growth
 2. Migration
 3. Changes in land used, such as deforestation. 
 
-### Stage 3 Unsafe Conditions 
+#### Stage 3 Unsafe Conditions 
 ***Environmental*** conditions, such as:
 1. Landslides
 2. Saline intrustion 
@@ -127,7 +127,7 @@ Processes of ***rapid change*** such as:
 
 These factors all impact on ***the resilience of a community*** to respond and recover from climate change events. When these factors combine with a climate disaster such as flood or drought communities are crushed from both sides.  
 
->### Case Study: Bangladesh  
+>#### Case Study: Bangladesh  
 > High *vnlnerability* score (0.546)  
 > Low *readiness* score (0.267)
 > * High rural population
@@ -135,3 +135,44 @@ These factors all impact on ***the resilience of a community*** to respond and r
 > * High water dependency ratio with low levels of economic capacity to store and transport water
 > * High density populations in poorly resourced slums
 > 
+
+### Disparities across Communities 
+#### Poverty
+Some groups in society are ***more vulnerable*** than others. The most important factor is ***poverty***
+
+#### Gender
+Climate change impacts women more than men, since they are:  
+* Highly dependent on local natural resources for their livelihood.  
+* Experience unequal access to resources and decision-making processes, with limited mobility in rural areas.  
+* Face huge challenges in accessing all levels of policy and decision-making process.  
+
+
+Therefore, in several condition, women face more challenges: 
+
+* Crop failure hits women harder;  
+  * increase workload. 
+  * household food provision.  
+
+* Fuel Shortage;
+  * more time for fuelwood collection.  
+  * household fuel provision.  
+
+* Natural disasters;  
+  * women's greater incidence of mortality.  
+
+* Disease;  
+  * lack of access to health care.  
+  * women's burden as care givers.  
+
+* Displacement;  
+  * forced migration increases women's vulnerability.  
+
+* Conflict;  
+  * loss of lives. 
+  * violence against women.  
+
+* With a greater role as ***care givers*** and in the ***absence*** of ***health services*** and increased climate change health threats;  
+  * this burden of care falls llargely on women.  
+
+* Women often have ***fewer rights*** than men;
+  * limited mobility and less access to resources, information, and decision making powers.  
