@@ -28,7 +28,7 @@ $$a_t = r\alpha$$
 
 
 |Angular|Linear|
-|---|---|
+|:---:|:---:|
 |$\omega _f = \omega _i + \alpha t$|$v=at$|
 |$\omega _f^2 = \omega_i^2 + 2\alpha \Delta \theta$|$v^2=u^2+2as$|
 |$\Delta \theta = \omega _i + \frac{1}{2} \alpha t^2$|$s=ut+ \frac{1}{2}at^2$|
@@ -95,5 +95,32 @@ The product of a body's *moment* of ***inertia*** and its *angular velocity*.
 $$L=I\omega$$
 $$Unit: kg\space m^2 \space rad \space s^{-1}$$
 
-***Angular momentum conservation***:  
+## B.1.8 Angular momentum conservation
 $$\Sigma I_i \omega_i=\Sigma I_f\omega_f$$
+
+## B.1.9 Angular impulse
+Angular impulse $\Delta L$ is the ***product of the average torque $\tau$ and $\Delta t$***.
+$$\Delta L = \tau \times \Delta t$$
+$$\Delta L = I\Delta \omega$$
+$$\therefore \Delta L = I\omega_f-I\omega_i$$
+$$Unit:Nms$$  
+
+$\tau$is the gradient of I-t graph as (rate of change of angular momentum):  
+$$\tau=\frac{\Delta L}{\Delta t}$$
+
+Which can give ***the change in angular momentum***:
+$$\tau = I\frac{\Delta \omega}{\Delta t}+\omega\frac{\Delta I}{\Delta t}$$
+
+
+
+The equation is an equivalent statement to Newton's second law:  
+$$F=\frac{\Delta P}{\Delta t}$$
+$$\therefore F=\frac{d(mv)}{dx}$$
+$$\therefore F=m\frac{dv}{dt}+v\frac{dm}{dt}$$
+
+## B.1.10 Rotational kinetic energy
+$$E_{rk}=\frac{1}{2}I\omega^2$$
+
+### Rolling and sliding
+We need to consider both sliding and rolling. 
+$$\therefore mgh=\frac{1}{2}I\omega^2+\frac{1}{2}mv^2$$
