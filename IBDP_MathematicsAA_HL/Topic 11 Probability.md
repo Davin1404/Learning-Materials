@@ -4,7 +4,7 @@
 
 ### Expectation and Variance
 For a ***discrete random*** variable $X$.  
-$$E(X)=\Sigma \; xP(X=x)$$
+$$E(X)=\Sigma \space xP(X=x)$$
 $$Var(X)=E(X^2)-[E(X)]^2$$
 
 ## Discrete Continuous Variable X
