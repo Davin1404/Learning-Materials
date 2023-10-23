@@ -103,6 +103,7 @@ $$L=I\omega$$
 $$Unit: kg\space m^2 \space rad \space s^{-1}$$
 
 ## B.1.8 Angular momentum conservation
+$$when\space \Sigma\tau=0$$
 $$\Sigma I_i \omega_i=\Sigma I_f\omega_f$$
 
 ## B.1.9 Angular impulse
