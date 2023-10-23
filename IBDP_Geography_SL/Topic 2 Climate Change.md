@@ -176,3 +176,41 @@ Therefore, in several condition, women face more challenges:
 
 * Women often have ***fewer rights*** than men;
   * limited mobility and less access to resources, information, and decision making powers.  
+
+## Mitigation & Strategies
+### Mitigation 
+Efforts to reduce emissions and enhance sinks are referred to as "mitigation".  
+
+* As there is a direct relation between global average temperatures and the concentration of greenhouse gases in the atmosphere.  
+
+* The key for the solution to the climate change problem rests in *decreasing the amount of emissions* released into the atmosphere and in *reducing the current concentration of carbon dioxide(CO2)* by enhacing sinks (e.g. increasing the area of forests).  
+
+### Carbon Emission Offsetting 
+are designed to ***neutralize the effects*** of the carbon dioxide human activities produce by investing in projects that cut emissions elsewhere.  
+
+Carbon offset schemes allow individuals and companies to invest in *environment projects* around the world in order to balance out their own carbon emissions.  
+
+How individual reach the carbon emission offsetting: 
+1. It is possible to offset some or all of your ***carbon footprint***. Some schemes are linked to carbon emitting activities such as ***flying***.  
+  
+2. To do this, the traveller visits a carbon offset website, calculates their emissions and then pays the offset company to reduce emissions elsewhere in the world, either by offsetting part of the flight emissions or neutralising all of it.  
+3. Offset schemes vary in terms of cost, though a fairly typical fee wwould fall between 12 dollars for each tonne of $CO_2$ offset.  
+
+### Carbon Trading Schemes
+is a market-based scheme that allows industries to buy and sell permits for emssions or credits for reductions in emissions of certain greenhouse gases.  
+
+* An attempt to create a market in which permits issued by governments to emit carbon dioxide can be traded.  
+
+* In Europe, carbon permits are traded through the ***Emissions Trading System*** (ETS).  
+* Government set targets for the amount of carbon dioxide that industries can emit, divided between individual plants or companies.  
+* Plants that exceed that limit are forced to buy permits from other that do no. Target are set to reduce pollution, but through a market system.  
+* It is working by putting a limit on total emissions, but critics argue that the targets are too generous.  
+
+### Technology Solutions 
+Geo-engineering technology solutions for mitigating and adapting to climate change can be categorised into two main areas.  
+* Technologies that attempt to *manage solar rediation*.  
+
+* Technologies involved in *carbon capture and storage*. 
+
+* Geo-engineering, is the deliberate and large-scale intervention in the Earth's climate system, usually with *the aim of mitigation the adverse effects of global warming*.  
+* Technologies include a range of efforts to *restrict solar radiation from reaching the lower atmosphere*.  
