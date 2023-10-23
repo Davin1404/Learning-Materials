@@ -12,7 +12,7 @@ $$Unit: rad\space s^{-2}$$
 
 ***Angular*** acceleration:
 
-$$\alpha = \frac{\Delta\omega}{t}$$  
+$$\alpha = \frac{\Delta\omega}{t} \space(\omega=\frac{v}{r})$$  
 
 ***Centripetal*** acceleration:   
 $$a_c = r\omega^2 = \frac{v^2}{t}$$  
@@ -70,7 +70,14 @@ $$\sum \tau = 0$$
 When the object is in *rotational equilibrium*:  
 ***total clockwise = total anticlockwise torque***. 
 
-## B.1.5 Newton's second law of angular motion-angular acceleration 
+## B.1.5 Newton's second law of angular motion-angular acceleration
+
+Newton's second law for linear motion: 
+$$mgsin\theta-F=ma$$
+
+Newton's second law for angular motion:
+$$FR=I\alpha$$
+
 Equation of resultant torque($\tau$):
 $$\tau = I\alpha$$
 
