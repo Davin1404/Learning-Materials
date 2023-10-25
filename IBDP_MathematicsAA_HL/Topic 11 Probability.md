@@ -57,9 +57,11 @@ GDC keyword:
 ### Standard Normal Disctribution (Z~distribution ) 
 * For the standard normal distribution (Z~distribution), ***the graph is symmetrical along the y-axis***. 
 * *It has a mean $\mu$ of $0$ and a standard deviation $\sigma$ of 1*.   
- 
-$$Z\sim N(\mu,\sigma)$$
+
+Derivation: 
+$$X\sim N(\mu,\sigma)$$
 $$Let \space Z=\frac{X-\mu}{\sigma}$$
+$$\therefore Z\sim N(\mu,\sigma)$$
 $$\because E(Z)=E(\frac{X-\mu}{\sigma})=\frac{1}{\sigma}(E(X)-\mu)=\frac{1}{\sigma}(\mu -\mu)=0$$
 $$\because Var(Z)=Var(\frac{X-\mu}{\sigma})=\frac{1}{\sigma^2}Var(X-\mu)$$
 $$=\frac{1}{\sigma^2}Var(X-0)=\frac{1}{\sigma^2}Var(X)=\frac{1}{\sigma^2}\sigma^2=1$$
