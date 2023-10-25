@@ -19,12 +19,14 @@ $$Var(X)=\int_{-\infty}^{\infty} x^2f_{pdf}(x)\space dx-(\int_{-\infty}^{\infty}
 
 ## Binomial Distribution
 ## Probability Density Function
-Proporties:
+#### Proporties:
 * The function is non-negative, $f(x) \ge 0$.  
 *  The total area contained between the graph and the horizontal axis is 1. 
 $$P(a < x\le b)=\int_{a}^{b} f_{pdf}(x)\space dx$$
 $$\int_{-\infty}^{\infty} f_{pdf}(x)\space dx=1$$
-* GDC keywords: `binomPdf(n,p,x)`  , `binomCdf(n,p,q,x)`
+GDC keywords:
+1. `binomPdf(n,p,x)`  
+2. `binomCdf(n,p,q,x)`
 
 ### Expectation and Variance
 For $X \sim B(n,P)$
@@ -44,5 +46,23 @@ $$\int_{-\infty}^{m}f_{pdf}(x)dx=0.5$$
 $$S.D.=\int_{0}^{1}x^2f(x)dx-\mu^2$$
 
 
+## Normal Distribution 
+### Normal Probability Density Function 
+A bell-shaped density curve that is symmetric about the mean $\mu$. Its variability is measured by $\sigma$.  
 
+GDC keyword: 
+1.  `normCdf(up,down,m,SD)`
+2.  `invNorm(area,m,SD)`
 
+### Standard Normal Disctribution (Z~distribution ) 
+* For the standard normal distribution (Z~distribution), ***the graph is symmetrical along the y-axis***. 
+* *It has a mean $\mu$ of $0$ and a standard deviation $\sigma$ of 1*.   
+ 
+$$Z\sim N(\mu,\sigma)$$
+$$Let \space Z=\frac{X-\mu}{\sigma}$$
+$$\because E(Z)=E(\frac{X-\mu}{\sigma})=\frac{1}{\sigma}(E(X)-\mu)=\frac{1}{\sigma}(\mu -\mu)=0$$
+$$\because Var(Z)=Var(\frac{X-\mu}{\sigma})=\frac{1}{\sigma^2}Var(X-\mu)$$
+$$=\frac{1}{\sigma^2}Var(X-0)=\frac{1}{\sigma^2}Var(X)=\frac{1}{\sigma^2}\sigma^2=1$$
+$$\therefore Z\sim N(0,1^2)$$
+
+* Therefore, if $\mu$ or $\sigma$ is unkown, we can convert normal variable $X$ into standard variable $Z$.  
