@@ -29,7 +29,7 @@ $$a_t = r\alpha$$
 
 |Angular|Linear|
 |:---:|:---:|
-|$\omega _f = \omega _i + \alpha t$|$v=at$|
+|$\omega _f = \omega _i + \alpha t$|$v=u+at$|
 |$\omega _f^2 = \omega_i^2 + 2\alpha \Delta \theta$|$v^2=u^2+2as$|
 |$\Delta \theta = \omega _i + \frac{1}{2} \alpha t^2$|$s=ut+ \frac{1}{2}at^2$|
 |$\Delta \theta = \frac{\omega _i + \omega _f}{2}t$|$s=\frac{u+v}{2}t$|
