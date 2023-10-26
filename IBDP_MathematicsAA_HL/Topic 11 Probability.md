@@ -56,7 +56,7 @@ GDC keyword:
 
 ### Standard Normal Disctribution (Z~distribution ) 
 * For the standard normal distribution (Z~distribution), ***the graph is symmetrical along the y-axis***. 
-* *It has a mean $\mu$ of $0$ and a standard deviation $\sigma$ of 1*.   
+* It has a mean $\mu$ of $0$ and a standard deviation $\sigma$ of 1.   
 
 Derivation: 
 $$X\sim N(\mu,\sigma)$$
