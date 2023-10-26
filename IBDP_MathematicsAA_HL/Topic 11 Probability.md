@@ -1,7 +1,7 @@
 # Topic 11 Probability
 
-$$E(ax+b) = aE(x)+b$$
-$$Var(ax+b)=a^2Var()$$
+$$E(aX+b) = aE(X)+b$$
+$$Var(aX+b)=a^2Var(X)$$
 
 ## Discrete Random Variable X
 
@@ -61,10 +61,21 @@ GDC keyword:
 Derivation: 
 $$X\sim N(\mu,\sigma)$$
 $$Let \space Z=\frac{X-\mu}{\sigma}$$
-$$\therefore Z\sim N(\mu,\sigma)$$
-$$\because E(Z)=E(\frac{X-\mu}{\sigma})=\frac{1}{\sigma}(E(X)-\mu)=\frac{1}{\sigma}(\mu -\mu)=0$$
-$$\because Var(Z)=Var(\frac{X-\mu}{\sigma})=\frac{1}{\sigma^2}Var(X-\mu)$$
+$$\therefore Z\sim N(\mu_z,\sigma_z)$$
+$$\because \mu_z=E(Z)=E(\frac{X-\mu}{\sigma})=\frac{1}{\sigma}(E(X)-\mu)=\frac{1}{\sigma}(\mu -\mu)=0$$
+$$\because \sigma_z=Var(Z)=Var(\frac{X-\mu}{\sigma})=\frac{1}{\sigma^2}Var(X-\mu)$$
 $$=\frac{1}{\sigma^2}Var(X-0)=\frac{1}{\sigma^2}Var(X)=\frac{1}{\sigma^2}\sigma^2=1$$
 $$\therefore Z\sim N(0,1^2)$$
 
 * Therefore, if $\mu$ or $\sigma$ is unkown, we can convert normal variable $X$ into standard variable $Z$.  
+
+## The Expectation and Variance Algebra
+The expectation algebra of one random variable:  
+$$E(aX+b) = aE(X)+b$$
+$$Var(aX+b)=a^2Var(X)$$
+
+Linear combinations of two or more **Independent** random variables:  
+$$E(a_1X_1+a_2X_2+...+a_nX_n) $$
+$$= a_1E(X_1)+a_2E(X_2)+...+a_nE(X_n)$$
+$$Var(a_1X_1+a_2X_2+...+a_nX_n)$$
+$$=a_1^2Var(X_1)+a_2^2Var(X_2)+...+a_n^2Var(X_n)$$
