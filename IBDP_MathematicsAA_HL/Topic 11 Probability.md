@@ -69,7 +69,7 @@ $$\therefore Z\sim N(0,1^2)$$
 
 * Therefore, if $\mu$ or $\sigma$ is unkown, we can convert normal variable $X$ into standard variable $Z$.  
 
-## The Expectation and Variance Algebra
+### The Expectation and Variance Algebra
 The expectation algebra of one random variable:  
 $$E(aX+b) = aE(X)+b$$
 $$Var(aX+b)=a^2Var(X)$$
@@ -79,3 +79,5 @@ $$E(a_1X_1+a_2X_2+...+a_nX_n) $$
 $$= a_1E(X_1)+a_2E(X_2)+...+a_nE(X_n)$$
 $$Var(a_1X_1+a_2X_2+...+a_nX_n)$$
 $$=a_1^2Var(X_1)+a_2^2Var(X_2)+...+a_n^2Var(X_n)$$
+
+The linear combination of two **independent** random variables that having ***normally*** distributed random variables also has a ***normal distribution***. 
