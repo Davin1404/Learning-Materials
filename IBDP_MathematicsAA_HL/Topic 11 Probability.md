@@ -79,5 +79,7 @@ $$E(a_1X_1+a_2X_2+...+a_nX_n) $$
 $$= a_1E(X_1)+a_2E(X_2)+...+a_nE(X_n)$$
 $$Var(a_1X_1+a_2X_2+...+a_nX_n)$$
 $$=a_1^2Var(X_1)+a_2^2Var(X_2)+...+a_n^2Var(X_n)$$
+> What is "Independent"?  
+> e.g. Weights of 6 diffierent apples are independent random variables. 
 
 The linear combination of two **independent** random variables that having ***normally*** distributed random variables also has a ***normal distribution***. 
