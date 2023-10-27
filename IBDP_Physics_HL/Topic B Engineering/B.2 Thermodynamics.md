@@ -56,3 +56,8 @@ $$\frac{P}{T}=constant$$
 ## B.2.3 Cycles and Engines
 ### Principle of heat engine
 Take in energy at a high temperature, reject energy at a low temperature and use the remainder of the energy to do work on the system.  
+
+### The Carnot cycle
+The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
+$$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}$$
+$$\therefore \eta = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}}{T_{\text{hot}}}$$
