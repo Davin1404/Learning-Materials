@@ -214,3 +214,4 @@ Geo-engineering technology solutions for mitigating and adapting to climate chan
 
 * Geo-engineering, is the deliberate and large-scale intervention in the Earth's climate system, usually with *the aim of mitigation the adverse effects of global warming*.  
 * Technologies include a range of efforts to *restrict solar radiation from reaching the lower atmosphere*.  
+
