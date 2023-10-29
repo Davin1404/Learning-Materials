@@ -19,7 +19,7 @@ $$=\ln(1+\text{sin}(-x))$$
 $$\therefore =0+(-x)-\frac{(-x)^2}{2!}+\frac{(-x)^3}{3!}+...$$  
 $$\therefore \ln(1-\text{sin}(x)) =-x-\frac{x^2}{2!}-\frac{x^3}{3!}+...\tag{ANS}$$  
 
----
+
 
 $$\text{Find the Maclaurin seris for } \ln(\text{cos}(x))$$  
 $$\because \ln(1+\text{sin}(x))+\ln(1-\text{sin}(x))=\ln[(1+\text{sin}(x))(1-\text{sin}(x))]$$  
@@ -28,7 +28,7 @@ $$\therefore \ln(\text{cos}(x))=\frac{1}{2}[\ln(1+\text{sin}(x))+\ln(1-\text{sin
 $$=\frac{1}{2}[(x-\frac{x^2}{2!}+\frac{x^3}{3!}+...)+(-x-\frac{x^2}{2!}-\frac{x^3}{3!}+...)]$$  
 $$\therefore \ln(\text{cos}(x))=-\frac{1}{2}x^2-\frac{1}{12}x^4+...\tag{ANS}$$    
 
----
+
 
 $$\text{Find the Maclaurin seris for } \text{tan}(x)$$  
 $$\because \frac{\text{d}}{\text{d}x}[\ln(\text{cos}(x))]=\frac{1}{\text{cos}(x)}(-\text{sin}(x))=-\tan(x)$$  
