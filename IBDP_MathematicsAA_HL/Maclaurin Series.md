@@ -14,6 +14,7 @@ $$\therefore \ln (1+\text{sin}(x))=x-\frac{x^2}{2!}+\frac{x^3}{3!}+...\tag{ANS}$
 *Some derivation that appeared in the previous homework:*  
 
 $$\text{Find the Maclaurin seris for } \ln(1-\text{sin}(x))$$  
+
 $$\ln(1-\text{sin}(x))=\ln[1+(-\text{sin}(x))]$$  
 $$=\ln(1+\text{sin}(-x))$$  
 $$\therefore =0+(-x)-\frac{(-x)^2}{2!}+\frac{(-x)^3}{3!}+...$$  
