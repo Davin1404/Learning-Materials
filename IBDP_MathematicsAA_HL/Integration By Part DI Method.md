@@ -29,7 +29,7 @@ $$\int x^2\text{sin}(3x)dx$$
 然后，从第一列开始，到倒数第二列，将 $D$ 求导列部分***乘左侧符号***与***下一行***的 $I$ 积分列部分相乘，并将所有积相加。  
 $$(x^2)(-\frac{1}{3}\text{cos}(3x))+(-1)(2x)(-\frac{1}{9}\text{sin}(3x))+(2)(\frac{1}{27}\text{cos}(3x))$$
 我们就可以得出这个积分的最终答案了！
-$$\int x^2\text{sin}(3x)dx=-\frac{1}{3}x^2\text{cos}(3x)+\frac{2}{9}x\text{sin}(3x))+\frac{2}{27}\text{cos}(3x)+C$$
+$$\int x^2\text{sin}(3x)dx=-\frac{1}{3}x^2\text{cos}(3x)+\frac{2}{9}x\text{sin}(3x)+\frac{2}{27}\text{cos}(3x)+C$$
 
 ## Three "STOP" cases 三个终止情况
 1. The latest part of the ***D column*** *(differentiation part)* is ***zero***  

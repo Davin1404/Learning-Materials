@@ -1,4 +1,4 @@
-# Topic 11 Probability
+# Probability
 
 $$E(aX+b) = aE(X)+b$$
 $$Var(aX+b)=a^2Var(X)$$
