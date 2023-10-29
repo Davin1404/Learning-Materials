@@ -43,9 +43,7 @@ $$\text{Find the Maclaurin seris for } \text{tan}(x)$$
 
 $$\because \frac{\text{d}}{\text{d}x}[\ln(\text{cos}(x))]=\frac{1}{\text{cos}(x)}(-\text{sin}(x))=-\tan(x)$$  
 
-$$\therefore \tan(x)=-\frac{\text{d}}{\text{d}x}[\ln(\text{cos}(x))]$$  
-
-$$=-\frac{\text{d}}{\text{d}x}(-\frac{1}{2}x^2-\frac{1}{12}x^4+...)$$  
+$$\therefore \tan(x)=-\frac{\text{d}}{\text{d}x}[\ln(\text{cos}(x))] =-\frac{\text{d}}{\text{d}x}(-\frac{1}{2}x^2-\frac{1}{12}x^4+...)$$  
 
 $$\therefore \tan(x)=x+\frac{1}{3}x^3+...\tag{ANS}$$  
 
