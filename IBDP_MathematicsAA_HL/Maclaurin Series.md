@@ -9,7 +9,8 @@ $$f'''(0)=\frac{\text{cos}(0)}{(1+\text{sin}(0))^2}=1 $$
 $$f^{(4)}(0)=...$$
 $$\therefore \ln (1+\text{sin}(x))=x-\frac{x^2}{2!}+\frac{x^3}{3!}+...\tag{ANS}$$ 
 
-## Tricks
+## Tricks  
+
 *Some derivation that appeared in the previous homework:*
 
 $$\text{Find the Maclaurin seris for } \ln(1-\text{sin}(x));$$
