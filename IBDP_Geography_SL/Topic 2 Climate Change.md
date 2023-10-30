@@ -215,3 +215,11 @@ Geo-engineering technology solutions for mitigating and adapting to climate chan
 * Geo-engineering, is the deliberate and large-scale intervention in the Earth's climate system, usually with *the aim of mitigation the adverse effects of global warming*.  
 * Technologies include a range of efforts to *restrict solar radiation from reaching the lower atmosphere*.  
 
+## Changes in the global energy balance
+### Eccentricity 
+When Earth's orbit is at its most elliptic, approximately 23% more incoming solar radiation reaches the atmosphere. Currently, Earth's eccentricity is nearly at its most circular. This cycle of change from circular to elliptical orbit occurs on a cycle of 100,000 years.  
+
+### Obliquity
+As obliquity decreases, it gradually helps make our seasons milder, resulting in increasingly warmer winters, and cooler summers that gradually, over time, allow snow and ice at high latitudes to build up into large ice sheets.  
+
+### Precession 
