@@ -4,10 +4,11 @@
 ## 3. Continuous Distribution 
 ### 3.1 Probability Density Function (PDF)
 #### Proporties:
+* For a ***continuous random*** variable, a function can be used to model probabilities
 
 $$P(a <X\le b)=\int_{a}^{b} f_{\text{pdf}}(x)\space dx \tag{1}$$  
 
-* The function is non-negative  
+* The function is non-negative for all values of $X$ 
 
 $$f_{\text{pdf}}(x) \ge 0 \tag{2}$$   
 
@@ -25,6 +26,10 @@ $$P(X>a)=1-P(X<a)=\int _{0}^{a}f_{\text{pdf}}(x)dx\tag{4}$$
 
 
 ### 3.2 Cumulative Distribution Function (CDF)
+#### GDC keyword: 
+1.  `invNorm(area,m,SD)`
+
+
 ### 3.3 Measures of Center, Position, and Spread of a Continuous Distribution
 #### 3.3.1 Mode 
 For mode $M_o$ :
@@ -44,6 +49,12 @@ $$\int_{-\infty}^{m}f_{\text{pdf}}(x)dx=0.5$$
 For percentile $k$ :  
 * The $k$ th percentile is defined as the value $n$ of the random variable such that $k\%$ of the values of $X$ are less than or equal to $n$, thus the $k$ th percentile satisfies
 $$\int _{-\infty}^{n}f_{pdf}(x)dx=k\%$$
+
+#### 3.3.5 Variance and Standard Deviation
+For variance:
+$$Var(X)=\int x^2f_{\text{pdf}}(x)dx-\mu^2$$
+For Standard Deviation $\sigma$ :
+$$\sigma = \sqrt{Var(X)}$$
 
 ## 4. Normal Distribution 
 ### 4.1 Normal Probability Density Function 
