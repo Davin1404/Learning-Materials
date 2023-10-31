@@ -84,3 +84,20 @@ $$=a_1^2Var(X_1)+a_2^2Var(X_2)+...+a_n^2Var(X_n)$$
 > e.g. Weights of 6 diffierent apples are independent random variables. 
 
 The linear combination of two **independent** random variables that having ***normally*** distributed random variables also has a ***normal distribution***. 
+
+## Average
+$$S = x_1+x_2+...+x_n$$  
+
+$$S \sim N(n\mu,n\sigma^2)$$
+
+$$\overline{X}=\frac{x_1 + x_2 + ... + x_n}{n}$$  
+
+$$\overline{X}\sim N(\mu,\frac{\sigma^2}{n})$$  
+
+$$E(\overline{X})=E(\frac{x_1 + x_2 + ... + x_n}{n})=\frac{1}{n}E(x_1 + x_2 + ... + x_n)$$  
+
+$$=\frac{1}{n}n\mu=\mu$$  
+
+$$Var(\overline{X})=Var(\frac{x_1 + x_2 + ... + x_n}{n})=\frac{1}{n^2}Var(x_1 + x_2 + ... + x_n)$$  
+
+$$=\frac{1}{n^2}n\sigma^2=\frac{\sigma^2}{n}$$
