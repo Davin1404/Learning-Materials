@@ -1,5 +1,19 @@
 # Probability Distribution 
 ## 1. Discrete Probaility Distribution 
+### 1.1 Cumulative Distribution Function (CDF)
+The cumulative distribution functiono of a random variable $X$ expresses the probability that $X$ does not exceed the value $x$ as a function of $x$.  
+$$F(x)=P(X\le x)=\sum _{y:y\le x}p(y)\tag{1}$$
+
+### 1.2 Expected Value
+For expected value $\mu$ :
+$$\mu = E(X)=\sum \space xP(X=x)\tag{2}$$
+
+### 1.3 Variance and standard deviation 
+For variance:
+$$Var(X)=\sum (x-\mu)^2P(X=x)=\sum x^2 P(X=x)-\mu^2$$  
+For standard deviation $\sigma$ :
+
+
 ## 2. Binomial Distribution 
 ## 3. Continuous Distribution 
 ### 3.1 Probability Density Function (PDF)
@@ -26,31 +40,32 @@ $$P(X>a)=1-P(X<a)=\int _{0}^{a}f_{\text{pdf}}(x)dx\tag{4}$$
 
 
 ### 3.2 Cumulative Distribution Function (CDF)
+[Cumulative Distribution Function for discrete random variables](#11-cumulative-distribution-function-cdf)
 #### GDC keyword: 
 1.  `invNorm(area,m,SD)`
 
-
-### 3.3 Measures of Center, Position, and Spread of a Continuous Distribution
-#### 3.3.1 Mode 
+### 3.3 Mode 
 For mode $M_o$ :
 $$\text{when }\frac{df_{\text{pdf}}(x)}{dx}=0$$
 $$M_o =x$$
 
-#### 3.3.2 Mean (Expectation)
+### 3.4 Mean (Expected value)
+* [Expected value for discrete distribution](#12-expected-value)  
+
 For mean $\mu$ :
 $$\mu = E(X)=\int xf_{\text{pdf}}(x)dx$$
 
-#### 3.3.3 Median
+### 3.5 Median
 For median $m$ :  
 * Half of the area under PDF lies to the left of m, thus the median $m$ satisfies
 $$\int_{-\infty}^{m}f_{\text{pdf}}(x)dx=0.5$$
 
-#### 3.3.4 Percentile
+### 3.6 Percentile
 For percentile $k$ :  
 * The $k$ th percentile is defined as the value $n$ of the random variable such that $k\%$ of the values of $X$ are less than or equal to $n$, thus the $k$ th percentile satisfies
 $$\int _{-\infty}^{n}f_{pdf}(x)dx=k\%$$
 
-#### 3.3.5 Variance and Standard Deviation
+### 3.7 Variance and Standard Deviation
 For variance:
 $$Var(X)=\int x^2f_{\text{pdf}}(x)dx-\mu^2$$
 For Standard Deviation $\sigma$ :
