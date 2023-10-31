@@ -51,8 +51,7 @@ $$S.D.=\int_{0}^{1}x^2f(x)dx-\mu^2$$
 A bell-shaped density curve that is symmetric about the mean $\mu$. Its variability is measured by $\sigma$.  
 
 GDC keyword: 
-1.  $P(a<X<b)={\tt normCdf}(a,b,\mu,\sigma)$
-    1.  `normCdf(a,b,m,SD)`  
+1.  `normCdf(a,b,m,SD)`  
 2.  `invNorm(area,m,SD)`
 
 ### Standard Normal Disctribution (Z~distribution ) 
