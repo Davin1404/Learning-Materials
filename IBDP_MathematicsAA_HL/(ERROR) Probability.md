@@ -1,4 +1,6 @@
-# Probability
+# Probability Distribution 
+
+
 
 $$E(aX+b) = aE(X)+b$$
 $$Var(aX+b)=a^2Var(X)$$
@@ -18,25 +20,37 @@ $$E(X)=\int_{-\infty}^{\infty} xf_{pdf}(x)\space dx$$
 $$Var(X)=\int_{-\infty}^{\infty} x^2f_{pdf}(x)\space dx-(\int_{-\infty}^{\infty} xf_{pdf}(x)\; dx)^2$$
 
 ## Binomial Distribution
-## Probability Density Function
-#### Proporties:
-* The function is non-negative, $f(x) \ge 0$.  
-*  The total area contained between the graph and the horizontal axis is 1. 
-$$P(a < x\le b)=\int_{a}^{b} f_{pdf}(x)\space dx$$
-$$\int_{-\infty}^{\infty} f_{pdf}(x)\space dx=1$$
-GDC keywords:
-1. `binomPdf(n,p,x)`  
-2. `binomCdf(n,p,q,x)`
-
 ### Expectation and Variance
 For $X \sim B(n,P)$
 $$E(X)=np$$
 $$Var(X)=np(1-p)$$
 
+
+## Continuous Distribution 
+### Probability Density Function
+#### Proporties:
+
+$$P(a <X\le b)=\int_{a}^{b} f_{pdf}(x)\space dx \tag{1}$$  
+
+* The function is non-negative, $f(x) \ge 0$.  
+*  The total area contained between the graph and the horizontal axis is 1. 
+
+$$\int_{a}^{b} f_{pdf}(x)\space dx+\int_{b}^{c} f_{pdf}(x)\space dx+...=1$$  
+
+$$\therefore\int_{0}^{\infty} f_{pdf}(x)\space dx=1\tag{2}$$
+
+#### Tricks: 
+$$P(X>a)=1-P(X<a)=\int _{0}^{a}f_{pdf}(x)dx\tag{3}$$
+
+GDC keywords:
+1. `binomPdf(n,p,x)`  
+2. `binomCdf(n,p,q,x)`
+
+
 ### Mode 
-For mode $\mu$:
+For mode $M_o$:
 $$when\space\frac{df_{pdf}(x)}{dx}=0$$
-$$\mu =x$$
+$$M_o =x$$
 
 ### Median and percentiles
 Half of the area under PDF lies to the left of m, thus the median $m$ satisfies: 
@@ -48,7 +62,7 @@ $$S.D.=\int_{0}^{1}x^2f(x)dx-\mu^2$$
 
 ## Normal Distribution 
 ### Normal Probability Density Function 
-A bell-shaped density curve that is symmetric about the mean $\mu$. Its variability is measured by $\sigma$.  
+A bell-shaped density curve that is ***symmetric*** about the mean $\mu$. Its variability is measured by $\sigma$.  
 
 GDC keyword: 
 1.  `normCdf(a,b,m,SD)`  
