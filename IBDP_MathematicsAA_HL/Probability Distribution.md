@@ -1,7 +1,7 @@
 # Probability Distribution 
 ## 1. Discrete Probaility Distribution 
 ### 1.1 Cumulative Distribution Function (CDF)
-The cumulative distribution functiono of a random variable $X$ expresses the probability that $X$ does not exceed the value $x$ as a function of $x$.  
+The cumulative distribution function of a random variable $X$ expresses the probability that $X$ does not exceed the value $x$ as a function of $x$.  
 $$F(x)=P(X\le x)=\sum _{y:y\le x}p(y)\tag{1}$$
 
 ### 1.2 Expected Value
