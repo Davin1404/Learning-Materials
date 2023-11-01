@@ -15,8 +15,20 @@ $$Var(X)=E(X^2)-[E(X)]^2\tag{4}$$
 For standard deviation $\sigma$ :
 $$\sigma = \sqrt{Var(X)}\tag{5}$$
 
+---
 
 ## 2. Binomial Distribution 
+### 2.1 The cumulative binomial distribution function 
+
+### 2.2 Mean (Expected value)
+For mean $\mu$ :
+$$\mu = E(X)=np$$
+
+### 2.3 Variance
+For variance:
+$$Var(X)=npq=np(1=p)$$
+
+
 ## 3. Continuous Distribution 
 ### 3.1 Probability Density Function (PDF)
 #### Proporties:
@@ -36,7 +48,7 @@ $$\therefore\int_{0}^{\infty} f_{\text{pdf}}(x)\space dx=1\tag{3}$$
 
 #### Tricks:  
 
-$$P(X > a)=1-P(X < a)=\int_{0}^{a}f_{\text{pdf}}(x)dx\tag{4}$$
+$$P(X > a)=1-P(X \le a)=\int_{0}^{a}f_{\text{pdf}}(x)dx\tag{4}$$
 
 
 #### GDC keywords:
@@ -76,6 +88,8 @@ $$Var(X)=\int x^2f_{\text{pdf}}(x)dx-\mu^2$$
 For Standard Deviation $\sigma$ :
 $$\sigma = \sqrt{Var(X)}$$
 
+---
+
 ## 4. Normal Distribution 
 ### 4.1 Normal Probability Density Function 
 A bell-shaped density curve that is ***symmetric*** about the mean $\mu$. Its variability is measured by $\sigma$.  
@@ -89,12 +103,12 @@ GDC keyword:
 * For the standard normal distribution (Z~distribution), ***the graph is symmetrical along the y-axis***. 
 * It has a mean $\mu$ of $0$ and a standard deviation $\sigma$ of 1 (variance $\sigma^2$).   
 * Therefore, if $\mu$ or $\sigma$ is unkown, we can convert normal variable $X$ into standard variable $Z$.  
+ $$Z=\frac{X-\mu}{\sigma}$$
  $$\therefore Z\sim N(0,1^2)\tag{2}$$
-
 ##
 Derivation: 
 $$X\sim N(\mu,\sigma^2)$$
-$$Let \space Z=\frac{X-\mu}{\sigma}$$
+$$\text{Let} \space Z=\frac{X-\mu}{\sigma}$$
 $$\therefore Z\sim N(\mu_z,\sigma_z)$$
 $$\because \mu_z=E(Z)=E(\frac{X-\mu}{\sigma})=\frac{1}{\sigma}(E(X)-\mu)=\frac{1}{\sigma}(\mu -\mu)=0$$
 $$\because \sigma_z=Var(Z)=Var(\frac{X-\mu}{\sigma})=\frac{1}{\sigma^2}Var(X-\mu)$$
@@ -118,6 +132,8 @@ $$=a_1^2Var(X_1)+a_2^2Var(X_2)+...+a_n^2Var(X_n)\tag{6}$$
 > e.g. Weights of 6 diffierent apples are independent random variables. 
 
 The linear combination of two **independent** random variables that having ***normally*** distributed random variables also has a ***normal distribution***. 
+
+---
 
 ## Average
 $$S = x_1+x_2+...+x_n$$  
