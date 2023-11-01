@@ -18,15 +18,21 @@ $$\sigma = \sqrt{Var(X)}\tag{5}$$
 ---
 
 ## 2. Binomial Distribution 
+$$X \sim B(n,p)\tag{1}$$
 ### 2.1 The cumulative binomial distribution function 
+[Cumulative Distribution Function for discrete random variables](#11-cumulative-distribution-function-cdf)
+
+
 
 ### 2.2 Mean (Expected value)
 For mean $\mu$ :
 $$\mu = E(X)=np$$
 
-### 2.3 Variance
+### 2.3 Variance and Standard Deviation
 For variance:
 $$Var(X)=npq=np(1=p)$$
+For standard deviation $\sigma$ :
+$$\sigma = \sqrt{Var(X)}=\sqrt{npq}\tag{5}$$
 
 
 ## 3. Continuous Distribution 
