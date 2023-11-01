@@ -21,7 +21,7 @@ $$\sigma = \sqrt{Var(X)}$$
 #### Proporties:
 * For a ***continuous random*** variable, a function can be used to model probabilities
 
-$$P(a <X\le b)=\int_{a}^{b} f_{\text{pdf}}(x)\space dx \tag{1}$$  
+$$P(a < X \le b)=\int_{a}^{b} f_{\text{pdf}}(x)\space dx \tag{1}$$  
 
 * The function is non-negative for all values of $X$ 
 
