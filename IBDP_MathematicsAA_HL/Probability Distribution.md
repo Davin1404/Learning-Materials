@@ -30,7 +30,7 @@ $$\mu = E(X)=np\tag{2}$$
 
 ### 2.3 Variance and Standard Deviation
 For variance:
-$$Var(X)=npq=np(1=p)\tag{3}$$
+$$Var(X)=npq=np(1-p)\tag{3}$$
 For standard deviation $\sigma$ :
 $$\sigma = \sqrt{Var(X)}=\sqrt{npq}\tag{4}$$
 
