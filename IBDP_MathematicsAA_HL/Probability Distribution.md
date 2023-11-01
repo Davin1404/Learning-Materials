@@ -64,9 +64,9 @@ $$\int_{-\infty}^{m}f_{\text{pdf}}(x)dx=0.5$$
 
 ### 3.6 Percentile
 For percentile $k$ :  
-* The $k$ th percentile is defined as the value $n$ of the random variable such that $k\%$ of the values of $X$ are less than or equal to $n$, thus the $k$ th percentile satisfies:  
+* The $k$ th percentile is defined as the value $n$ of the random variable such that $k\space \text{percent}$ of the values of $X$ are less than or equal to $n$, thus the $k$ th percentile satisfies:  
 
-$$\int_{-\infty}^{n}f_{\text{pdf}}(x)dx=k\%$$  
+$$\int_{-\infty}^{n}f_{\text{pdf}}(x)dx=k\space\text{percent} $$  
 
 ### 3.7 Variance and Standard Deviation
 For variance:
