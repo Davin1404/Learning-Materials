@@ -10,7 +10,7 @@ $$\mu = E(X)=\sum \space xP(X=x)\tag{2}$$
 
 ### 1.3 Variance and standard deviation 
 For variance:
-$$Var(X)=\sum (x-\mu)^2P(X=x)=\sum x^2 P(X=x)-\mu^2$$  
+$$Var(X)=\sum (x-\mu)^2P(X=x)=\sum x^2 P(X=x)-\mu^2=E(X^2)-[E(X)]^2\tag{3}$$  
 For standard deviation $\sigma$ :
 $$\sigma = \sqrt{Var(X)}$$
 
