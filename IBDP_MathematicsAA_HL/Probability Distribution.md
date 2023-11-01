@@ -26,13 +26,13 @@ $$X \sim B(n,p)\tag{1}$$
 
 ### 2.2 Mean (Expected value)
 For mean $\mu$ :
-$$\mu = E(X)=np$$
+$$\mu = E(X)=np\tag{2}$$
 
 ### 2.3 Variance and Standard Deviation
 For variance:
-$$Var(X)=npq=np(1=p)$$
+$$Var(X)=npq=np(1=p)\tag{3}$$
 For standard deviation $\sigma$ :
-$$\sigma = \sqrt{Var(X)}=\sqrt{npq}\tag{5}$$
+$$\sigma = \sqrt{Var(X)}=\sqrt{npq}\tag{4}$$
 
 
 ## 3. Continuous Distribution 
@@ -69,30 +69,30 @@ $$P(X > a)=1-P(X \le a)=\int_{0}^{a}f_{\text{pdf}}(x)dx\tag{4}$$
 ### 3.3 Mode 
 For mode $M_o$ :
 $$\text{when }\frac{df_{\text{pdf}}(x)}{dx}=0$$
-$$M_o =x$$
+$$M_o =x\tag{5}$$
 
 ### 3.4 Mean (Expected value)
 * [Expected value for discrete distribution](#12-expected-value)  
 
 For mean $\mu$ :
-$$\mu = E(X)=\int xf_{\text{pdf}}(x)dx$$
+$$\mu = E(X)=\int xf_{\text{pdf}}(x)dx\tag{6}$$
 
 ### 3.5 Median
 For median $m$ :  
 * Half of the area under PDF lies to the left of m, thus the median $m$ satisfies
-$$\int_{-\infty}^{m}f_{\text{pdf}}(x)dx=0.5$$
+$$\int_{-\infty}^{m}f_{\text{pdf}}(x)dx=0.5\tag{7}$$
 
 ### 3.6 Percentile
 For percentile $k$ :  
 * The $k$ th percentile is defined as the value $n$ of the random variable such that $k\space \text{percent}$ of the values of $X$ are less than or equal to $n$, thus the $k$ th percentile satisfies:  
 
-$$\int_{-\infty}^{n}f_{\text{pdf}}(x)dx=k\space\text{percent} $$  
+$$\int_{-\infty}^{n}f_{\text{pdf}}(x)dx=k\space\text{percent}\tag{8}$$  
 
 ### 3.7 Variance and Standard Deviation
 For variance:
-$$Var(X)=\int x^2f_{\text{pdf}}(x)dx-\mu^2$$
+$$Var(X)=\int x^2f_{\text{pdf}}(x)dx-\mu^2\tag{9}$$
 For Standard Deviation $\sigma$ :
-$$\sigma = \sqrt{Var(X)}$$
+$$\sigma = \sqrt{Var(X)}\tag{10}$$
 
 ---
 
