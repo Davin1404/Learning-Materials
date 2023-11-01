@@ -12,6 +12,7 @@ $$\mu = E(X)=\sum \space xP(X=x)\tag{2}$$
 For variance:
 $$Var(X)=\sum (x-\mu)^2P(X=x)=\sum x^2 P(X=x)-\mu^2$$  
 For standard deviation $\sigma$ :
+$$\sigma = \sqrt{Var(X)}$$
 
 
 ## 2. Binomial Distribution 
