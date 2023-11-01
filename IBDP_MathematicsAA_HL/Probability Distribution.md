@@ -35,9 +35,9 @@ $$\therefore\int_{0}^{\infty} f_{\text{pdf}}(x)\space dx=1\tag{3}$$
 
 #### Tricks:  
 
-$$b$$
+$$P(X>a)=1-P(X<a)$$
 
-$$P(X > a) = 1-P(X < a) =\int _{0}^{a} f_{\text{pdf}}(x)dx\tag{4}$$  
+$$ =\int _{0}^{a} f_{\text{pdf}}(x)dx\tag{4}$$  
 
 #### GDC keywords:
 1. `binomPdf(n,p,x)`  
