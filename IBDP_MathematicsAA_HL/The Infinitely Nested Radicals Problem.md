@@ -3,7 +3,7 @@ $$\text{Let:}$$
 
 $$f(x)=x\sqrt{x\sqrt{x\sqrt{x\sqrt{x\sqrt{x...\infty}}}}}$$  
 
-$$\text{what is }f(x)=3\text{?}$$  
+$$\text{what is }f(3)\text{?}$$  
 
 ##
 
