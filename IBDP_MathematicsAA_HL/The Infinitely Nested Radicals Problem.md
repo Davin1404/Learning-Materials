@@ -5,6 +5,8 @@ $$f(x)=x\sqrt{x\sqrt{x\sqrt{x\sqrt{x\sqrt{x...\infty}}}}}$$
 
 $$\text{what is }f(x)=3\text{?}$$  
 
+##
+
 $solution:$  
 
 $$f(3)=3\times \sqrt{3\sqrt{3\sqrt{3\sqrt{3\sqrt{3...\infty}}}}}\tag{1}$$  
