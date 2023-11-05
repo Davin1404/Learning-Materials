@@ -161,7 +161,7 @@ $$\text{IQR}=Q_3-Q_1\tag{7}$$
 
 * The $Q_1$ satisfies:  
 
-$$b$$  
+$$\int_{-\infty}^{Q_1}f_{\text{N}}(x)=\frac{1}{4}\tag{8}$$  
 
 * Using GDC keywords `normCdf(a,b,m,SD)`, `invNorm(area,m,SD)`:  
 
@@ -175,7 +175,7 @@ $$\therefore Q_1=\text{invNorm}(\frac{1}{4},0 ,1)\tag{10}$$
 
 * The $Q_3$ satisfies:  
 
-$$\int _{-\infty}^{Q_3}f_{\text{N}}(x)=\frac{3}{4}\tag{11}$$  
+$$\int_{-\infty}^{Q_3}f_{\text{N}}(x)=\frac{3}{4}\tag{11}$$  
 
 * Using GDC keywords `normCdf(a,b,m,SD)`, `invNorm(area,m,SD)`:  
 
