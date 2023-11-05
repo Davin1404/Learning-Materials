@@ -15,7 +15,7 @@ $$Var(X)=E(X^2)-[E(X)]^2\tag{4}$$
 For standard deviation $\sigma$ :
 $$\sigma = \sqrt{Var(X)}\tag{5}$$
 
----
+##
 
 ## 2. Binomial Distribution 
 $$X \sim B(n,p)\tag{1}$$
@@ -87,7 +87,8 @@ $$\int_{-\infty}^{m}f_{\text{pdf}}(x)dx=0.5\tag{7}$$
 For percentile $k$ :  
 * The $k$ th percentile is defined as the value $n$ of the random variable such that $k\space \text{percent}$ of the values of $X$ are less than or equal to $n$, thus the $k$ th percentile satisfies:  
 
-$$\int_{-\infty}^{n}f_{\text{pdf}}(x)dx=k\space\text{percent}\tag{8}$$  
+$$\int_{-\infty}^{n}f_{\text{pdf}}(x)dx=k\space\text{percent}\tag{8}$$ 
+
 
 ### 3.7 Variance and Standard Deviation
 For variance:
@@ -95,7 +96,18 @@ $$Var(X)=\int x^2f_{\text{pdf}}(x)dx-\mu^2\tag{9}$$
 For Standard Deviation $\sigma$ :
 $$\sigma = \sqrt{Var(X)}\tag{10}$$
 
----
+### 3.8 IQR  
+For IQR:  
+
+$$\text{IQR}=Q_3-Q_1\tag{11}$$  
+
+* The $Q_1$ satisfies:  
+$$\int _{-\infty}^{Q_1}f_{\text{pdf}}(x)=\frac{1}{4}\tag{12}$$  
+
+* The $Q_3$ satisfies:  
+$$\int _{-\infty}^{Q_3}f_{\text{pdf}}(x)=\frac{3}{4}\tag{13}$$  
+
+##
 
 ## 4. Normal Distribution 
 ### 4.1 Normal Probability Density Function 
@@ -140,7 +152,12 @@ $$=a_1^2Var(X_1)+a_2^2Var(X_2)+...+a_n^2Var(X_n)\tag{6}$$
 
 The linear combination of two **independent** random variables that having ***normally*** distributed random variables also has a ***normal distribution***. 
 
----
+### 4.4 IQR
+For IQR:  
+
+$$\text{IQR}=Q_3-Q_1\tag{11}$$  
+
+##
 
 ## Average
 $$S = x_1+x_2+...+x_n$$  
