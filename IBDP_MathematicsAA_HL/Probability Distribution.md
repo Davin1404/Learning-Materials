@@ -79,7 +79,8 @@ $$\mu = E(X)=\int xf_{\text{pdf}}(x)dx\tag{6}$$
 
 ### 3.5 Median
 For median $m$ :  
-* Half of the area under PDF lies to the left of m, thus the median $m$ satisfies
+* Half of the area under PDF lies to the left of m, thus the median $m$ satisfies.  
+* ⚠️When there is ***MORE*** than one part in PDF, we need to consider ***the interval*** in which the value of $m$ lies.  
 $$\int_{-\infty}^{m}f_{\text{pdf}}(x)dx=0.5\tag{7}$$
 
 ### 3.6 Percentile
