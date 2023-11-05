@@ -18,6 +18,8 @@ $$\sigma = \sqrt{Var(X)}\tag{5}$$
 ##
 
 ## 2. Binomial Distribution 
+A sequence of several ***independent*** trials with equal probabilities.  
+
 $$X \sim B(n,p)\tag{1}$$
 ### 2.1 The cumulative binomial distribution function 
 [Cumulative Distribution Function for discrete random variables](#11-cumulative-distribution-function-cdf)
