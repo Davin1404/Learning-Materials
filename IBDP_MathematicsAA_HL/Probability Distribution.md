@@ -155,7 +155,7 @@ The linear combination of two **independent** random variables that having ***no
 ### 4.4 IQR
 For IQR:  
 
-$$\text{IQR}=Q_3-Q_1\tag{11}$$  
+$$\text{IQR}=Q_3-Q_1\tag{7}$$  
 
 ##
 
