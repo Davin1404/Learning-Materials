@@ -18,7 +18,7 @@ $$\sigma = \sqrt{Var(X)}\tag{5}$$
 ##
 
 ## 2. Binomial Distribution 
-A sequence of several ***independent*** trials with equal probabilities.  
+A sequence of several ***independent*** trials with ***equal*** probabilities.  
 
 $$X \sim B(n,p)\tag{1}$$
 ### 2.1 The cumulative binomial distribution function 
@@ -158,6 +158,12 @@ The linear combination of two **independent** random variables that having ***no
 For IQR:  
 
 $$\text{IQR}=Q_3-Q_1\tag{7}$$  
+
+* The $Q_1$ satisfies:  
+$$\int _{-\infty}^{Q_1}f_{\text{N}}(x)=\frac{1}{4}\tag{8}$$  
+
+* The $Q_3$ satisfies:  
+$$\int _{-\infty}^{Q_3}f_{\text{N}}(x)=\frac{3}{4}\tag{9}$$ 
 
 ##
 
