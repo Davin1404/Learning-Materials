@@ -104,10 +104,10 @@ For IQR:
 $$\text{IQR}=Q_3-Q_1\tag{11}$$  
 
 * The $Q_1$ satisfies:  
-$$\int _{-\infty}^{Q_1}f_{\text{pdf}}(x)=\frac{1}{4}\tag{12}$$  
+$$\int_{-\infty}^{Q_1}f_{\text{pdf}}(x)=\frac{1}{4}\tag{12}$$  
 
 * The $Q_3$ satisfies:  
-$$\int _{-\infty}^{Q_3}f_{\text{pdf}}(x)=\frac{3}{4}\tag{13}$$  
+$$\int_{-\infty}^{Q_3}f_{\text{pdf}}(x)=\frac{3}{4}\tag{13}$$  
 
 ##
 
