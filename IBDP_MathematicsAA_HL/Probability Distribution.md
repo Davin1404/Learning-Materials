@@ -162,8 +162,28 @@ $$\text{IQR}=Q_3-Q_1\tag{7}$$
 * The $Q_1$ satisfies:  
 $$\int _{-\infty}^{Q_1}f_{\text{N}}(x)=\frac{1}{4}\tag{8}$$  
 
+* Using GDC keywords `normCdf(a,b,m,SD)`, `invNorm(area,m,SD)`:  
+
+$$\therefore\text{normCDF}(-\infty ,Q_1,\mu ,\sigma)=\frac{1}{4}$$  
+
+$$\therefore Q_1=\text{invNorm}(\frac{1}{4},\mu ,\sigma)\tag{9}$$  
+
+* In standard normal distribution:  
+
+$$\therefore Q_1=\text{invNorm}(\frac{1}{4},0 ,1)\tag{10}$$ 
+
 * The $Q_3$ satisfies:  
-$$\int _{-\infty}^{Q_3}f_{\text{N}}(x)=\frac{3}{4}\tag{9}$$ 
+$$\int _{-\infty}^{Q_3}f_{\text{N}}(x)=\frac{3}{4}\tag{11}$$  
+
+* Using GDC keywords `normCdf(a,b,m,SD)`, `invNorm(area,m,SD)`:  
+
+$$\therefore\text{normCDF}(-\infty ,Q_3,\mu ,\sigma)=\frac{3}{4}$$
+
+$$\therefore Q_3=\text{invNorm}(\frac{3}{4},\mu ,\sigma)\tag{12}$$  
+
+* In standard normal distribution:  
+
+$$\therefore Q_3=\text{invNorm}(\frac{3}{4},0 ,1)\tag{13}$$ 
 
 ##
 
