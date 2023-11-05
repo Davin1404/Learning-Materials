@@ -126,7 +126,7 @@ GDC keyword:
 * Therefore, if $\mu$ or $\sigma$ is unkown, we can convert normal variable $X$ into standard variable $Z$.  
  $$Z=\frac{X-\mu}{\sigma}$$
  $$\therefore Z\sim N(0,1^2)\tag{2}$$
-##
+
 Derivation: 
 $$X\sim N(\mu,\sigma^2)$$
 $$\text{Let} \space Z=\frac{X-\mu}{\sigma}$$
@@ -135,7 +135,7 @@ $$\because \mu_z=E(Z)=E(\frac{X-\mu}{\sigma})=\frac{1}{\sigma}(E(X)-\mu)=\frac{1
 $$\because \sigma_z=Var(Z)=Var(\frac{X-\mu}{\sigma})=\frac{1}{\sigma^2}Var(X-\mu)$$
 $$=\frac{1}{\sigma^2}Var(X-0)=\frac{1}{\sigma^2}Var(X)=\frac{1}{\sigma^2}\sigma^2=1$$
 $$\therefore Z\sim N(0,1^2)$$
-##
+
 
 
 
