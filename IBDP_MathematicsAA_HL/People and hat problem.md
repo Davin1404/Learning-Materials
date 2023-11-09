@@ -12,6 +12,8 @@ $$\text{Recursive formula: }$$
 
 $$F(n)=n!-\sum ^{n-1}_{i=0} \binom {n}{n-i}F(i)$$  
 
+$$\text{terminal condition: }F(0)=1$$
+
 $$P(n)=\frac{F(n)}{n!}$$  
 
 The number of combinations with no matches between 2 sets of $n$ cards is denoted by $F(n)$.  
