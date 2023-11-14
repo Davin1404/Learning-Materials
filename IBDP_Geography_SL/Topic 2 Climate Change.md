@@ -215,6 +215,9 @@ Geo-engineering technology solutions for mitigating and adapting to climate chan
 * Geo-engineering, is the deliberate and large-scale intervention in the Earth's climate system, usually with *the aim of mitigation the adverse effects of global warming*.  
 * Technologies include a range of efforts to *restrict solar radiation from reaching the lower atmosphere*.  
 
+## Global Energy Balance
+Is all about the equilibrium between the incoming solar radiation and the outgoing thermal (infrared) radiation from Earth. When it comes to solar radiation variationos, changes in the amount of solar energy reaching Earth can disrupt this balance.  
+
 ## Changes in the global energy balance
 ### Eccentricity 
 When Earth's orbit is at its most elliptic, approximately 23% more incoming solar radiation reaches the atmosphere. Currently, Earth's eccentricity is nearly at its most circular. This cycle of change from circular to elliptical orbit occurs on a cycle of 100,000 years.  
