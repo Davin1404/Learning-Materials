@@ -123,7 +123,7 @@ An ***object*** is an abstract entity and its components are data and actions.
 >* International character sets;
 >* Changes are straightforward;
 
-## Polymorphism (OOP's features)
+# Polymorphism (OOP's features)
 ### Definition 
 *(empty)*
 
@@ -164,7 +164,7 @@ An ***object*** is an abstract entity and its components are data and actions.
 ### Disadvantages of using ***Polymorphism***  
 *(empty)*
 
-## Encapsulation (OOP'sfeatures)  
+# Encapsulation (OOP'sfeatures)  
 ### Definition  
 * Encapsulation places ***all attributes and methods*** that relate to a ***particular object;  
 
@@ -192,7 +192,7 @@ An ***object*** is an abstract entity and its components are data and actions.
 ### Disadvantages of using ***Encapsulation***  
 *(empty)*
 
-## Inheritance  (OOP’s features) (“is a”)
+# Inheritance  (OOP’s features) (“is a”)
 ### Definition
 * A ***new class*** is ***derived*** from an ***existing class***.  
 
@@ -219,7 +219,7 @@ An ***object*** is an abstract entity and its components are data and actions.
 ### Disadvantages of using ***Inheritance***  
 *(empty)*
 
-## Aggregation (“has a”)
+# Aggregation (“has a”)
 ### Definition 
 *(empty)*
 
@@ -234,7 +234,7 @@ An ***object*** is an abstract entity and its components are data and actions.
 
 * Using aggregation can lead to more complex code; when accessing functions of the aggregated object;
 
-## Dependencies (“uses a”)
+# Dependencies (“uses a”)
 ### Definition 
 *(empty)*  
 
@@ -288,7 +288,7 @@ An ***object*** is an abstract entity and its components are data and actions.
 
 # Data Structure
 
-## Stack
+# Stack
 
 ### Definition
 FILO (first in last out) data structure.  
@@ -296,7 +296,7 @@ FILO (first in last out) data structure.
 >#### Applications:  
 >The system stack stores return data of interrupted processes; The last interrupted process is the first to resume.  
 
-## Queue
+# Queue
 ### Definition
 FIFO (first in first out) data structure, only allowss addition at the end and removal from the front.  
 
@@ -308,7 +308,7 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 * Because it is a ***FIFO data structure*** / only allows addition at the end and removal from the front;
 * It has no ***fixed length*** which could lead to ***unmanageable***;
 
-## ArrayList 
+# ArrayList 
 
 ### Definition
 *(empty)*
@@ -325,28 +325,26 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 * ***Overflow*** is a problem;  
   * as there is a ***fixed*** amounts of element allowed.  
 
-## LinkedList
+# LinkedList
 
-### Definition
-*(empty)*
+* Java-specific data structure  
 
-### Advantages of using "***LinkedList***"
-* It is ***easier*** for a linkedlist to ***add and delete*** elements;  
+* Doubly-linked list (although sometimes referred to as a singly-linked list on the exam)
+* Each piece of data is stored in a node, with pointers
+* Located non-contiguously in memory - addresses of nodes are spread out across RAM and nodes only linked by pointers
+* Ideal for frequent insertion or deletion of elements, or when the size of the list is unknown
+* Ideal Use Cases
+  * Implementing a Queue - front of the queue is represented by the head of the Linked List, and the rear of the queue is represented by the tail of the Linked List.  
 
-  * as ***changing pointers*** is only needed;
-  * Adding to the front or back just requires adjusting pointers.  
-  
-* ***Efficiently uses memory*** as needed;  
+  * Implementing a Stack - top of the stack is represented by the head of the Linked List, and the bottom of the stack is represented by the tail of the Linked List
+  * Large Data Sets (due to dynamic memory allocation)
 
-  * as only the *required* number of locations will be needed.  
-
-
-### Disadvantages of using "***LinkedList***"
-* It will be ***slower*** to ***locate to a specific element***;  
-  
-  * as a *linear search* will be needed to be compared to *direct access* with the array.  s
-
-* ***Only allow sequential access*** 
+|Pros|Cons|
+|---|---|
+|***Dynamic Size*** - Unlike arrays, linked lists can grow or shrink in size|***Access Time*** - Finding a specific value in a linked list takes longer than in an array|
+|***Easy Insertion and Deletion*** - easy to insert and delete elements from linked list; simply invovlves changing points of adjacent nodes|***Extra memory overhead*** - pointers are utilized, which take up more memory than a single array element|  
+|***Efficient memory usage*** - memory is only allocated for elements in the linked list unlike arrays|***Complexity*** - linked lists can be more difficult to implement and debug than simple data structures like arrays|
+|***Versatility*** - can be used to implement other data structures like stacks and queues||
 
 ### Replace a data structure to ***LinkedList***
 * Modify the class to have a “next” member variable (next element pointer);  
@@ -354,7 +352,8 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 * Modify the first class to have a “first” member variable (begin element pointer);  
 * Modify the `add()` and `remove()` methods to implement the linked list;
 
-## Binary Tree
+
+# Binary Tree
 
 ### Definition
 *(empty)*
