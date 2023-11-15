@@ -352,6 +352,106 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 * Modify the first class to have a “first” member variable (begin element pointer);  
 * Modify the `add()` and `remove()` methods to implement the linked list;
 
+### Code Example
+#### Example 1: Create and initialize LinkedList
+```
+LinkedList<Student> studentList = new LinkedList<>();
+Student jamesObject = new Student("John Doe", 20, "Computer Science",85);
+Student janeObject = new Student("Jane Smith", 21, "Mathematics",90); 
+
+// Add 5 Student objects to the list
+
+studentList.add(jamesObject);
+studentList.add(janeObject);
+studentList.add(new Student("Bob Johnson", 19, "Physics", 92));
+studentList.add(new Student("Alice Brown", 22, "Chemistry", 88));
+studentList.add(new Student("Charlie Lee", 18, "Biology", 87));
+```
+
+#### Example 2 : Display Contents of Linked List
+```
+public void displayStudentInfo(LinkedList<Student> studentList) {
+    int index = 0;
+    while(index < studentList.size()) {
+        Student currentStudent = studentList.get(index);
+        System.out.println(currentStudent.getName() + " "+
+        currentStudent.getGrade());
+        index++;
+    }
+}
+```
+
+#### Example 3: Transfer Contents of an Array to a Linked List
+```
+public LinkedList<Student> arrayToLinkedList(Student[] studentArray){
+    LinkedList<Student> studentList = new LinkedList<>();
+    for(int i = 0; i < studentArray.length; i++) {
+        studentList.addLast(studentArray[i]);
+    }
+    return studentList;
+}
+```
+
+#### Example 4: Transfer Contents of a LinkedList to an Array
+```
+public Student[] linkedListToArray(LinkedList<Student> studentList) {
+    Student[] studentArray = new Student[studentList.size()];
+    int studentArrayIndex = 0;
+    while(studentArrayIndex < studentList.size()) {
+        studentArray[studentArrayIndex] =
+            studentList.get(studentArrayIndex);
+        studentArrayIndex++;
+    }
+    return studentArray;
+}
+```
+
+#### Example 5: Transfer Contents of a LinkedList to an Array (Using an Iterator)
+```
+public Student[] iteratorlinkedListToArray(LinkedList<Student>studentList){
+    Student[] studentArray = new Student[studentList.size()];
+    int studentArrayIndex = 0;
+    ListIterator<Student> studentIterator =
+        studentList.listIterator();
+    while (studentIterator.hasNext()) {
+        studentArray[studentArrayIndex] = studentIterator.next();
+        studentArrayIndex++;
+    }
+    return studentArray;
+}
+```
+
+#### Example 6: Find the Maximum Value of An Attribute in a LinkedList of Objects
+```
+public int findMaximum(LinkedList<Student> studentList) {
+    int maximum = studentList.getFirst().getGrade();
+    ListIterator<Student> studentIterator =
+        studentList.listIterator();
+    while(studentIterator.hasNext()) {
+        Student currentStudent = studentIterator.next();
+        int currentGrade = currentStudent.getGrade();
+        if(currentGrade > maximum) {
+            maximum = currentGrade;
+        }
+    }
+    return maximum;
+}
+```
+
+#### Example 7: Remove an Object Based on Some Criteria
+```
+public boolean removeByName(LinkedList<Student> studentList, Stringname){
+    int index = 0;
+    while(index < studentList.size()) {
+    Student currentStudent = studentList.get(index);
+        if (currentStudent.getName() == name) {
+            studentList.remove(index);
+            return true;
+        }
+    }
+    return false;
+}
+```
 
 # Binary Tree
 
