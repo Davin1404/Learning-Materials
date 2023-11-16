@@ -44,6 +44,8 @@ $$\therefore \Delta U=W$$
 #### Adiabatic processes for monatomic gases
 $$pV^{\frac{5}{3}}=constant$$
 
+Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because ***work has been done***.  
+
 ### Isovolumetric changes
 $W=0$  
 No work can be done by or on the system  
@@ -63,3 +65,29 @@ $$\text{useful work done}=W=Q_1-Q_2$$
 The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
 $$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}$$
 $$\therefore \eta = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}}{T_{\text{hot}}}$$
+
+## B.2.4 The Second Law of Thermodynamics  
+
+### The Clausius version of the second law  
+It is impossible to transfer energy from a body at a lower temperature to one at higher temperature without doing work on the system.  
+
+### The Kelvin (or Kelvin-Planck) version  
+It is impossible to extract energy from a hot reservoir and transfer this entirely into work.  
+
+### Entropy  
+A third version of the second law of thermodynamics involves the concept of entropy $S$.  
+
+$$\Delta S=\frac{\Delta Q}{T}$$  
+
+$$\Delta S = \text{the increase in entropy}$$  
+
+$$\Delta Q = \text{is the energy absorbed by the system}$$  
+
+$$T = \text{the temperature in kelvin at which this occurs}$$  
+
+Entropy is a ***scalar quantity*** and has units of **joule per kelvin** ( $\text{J K}^{-1}$ )
+
+* When energy is absorbed by a system, $\Delta Q>0$, a positive change in entropy-increase;  
+* When energy is rejected by the system, $\Delta Q<0$, the entropy will decrease;  
+
+⚠️The total entropy of the universe **INCREASES**.⚠️😡  
