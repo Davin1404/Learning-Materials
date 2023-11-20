@@ -44,3 +44,6 @@
 * LEDSs
 * LDC
 * CPEs (Centrally planned economies)
+
+## Economic cores 
+where industry, investment and wealth are greatest, create a mutiplier effect, which reinforces further investment in industry, further attracting people to the area for employment.  
