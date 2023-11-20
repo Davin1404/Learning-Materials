@@ -1,18 +1,19 @@
 # B.2 Thermodynamics
 ## B.2.1 Internal energy (U)
 The internal energy $U$ of a system is the total of the potential ennergy and the random kinetic energy of all the particles making up the system.  
-$$U=E_k +E_p\space $$
+$$U=E_k +E_p\space \tag{1}$$
 For ideal gas that $E_p = 0$: ($k_B=6.02\times 10^{23}$)
-$$U=E_k=\frac{3}{2}Nk_BT=\frac{3}{2}nN_Ak_BT$$
+$$U=E_k=\frac{3}{2}Nk_BT=\frac{3}{2}nN_Ak_BT\tag{2}$$
 $$(n=\frac{N}{N_A}=\frac{m(g)}{m(g\space mol^{-1})})$$
 $n =$ *amount of substance (mol)*
-$$\because k_B=\frac{R}{N_A}$$
+$$\because k_B=\frac{R}{N_A}\tag{3}$$
 $R =$ *molar gas constant*
 $$\therefore U=\frac{3}{2}nN_A\frac{R}{N_A}T$$
-$$U=\frac{3}{2}nRT $$
+$$U=\frac{3}{2}nRT \tag{4}$$  
+$$\Delta U=\frac{3}{2}P\Delta V\tag{5}$$
 
 ## B.2.2 The first law of thermodynamics
-$$Q=\Delta U+W$$
+$$Q=\Delta U+W\tag{6}$$
 $U=$  *the energy transferred from the surroundings to the system.*  
 $\Delta U =$ *the increase in the internal energy of the system (this is not simply a change, it is an increase)*  
 $W=$ *the work done by the system as it expands and pushed back the surroundings.*  
@@ -64,7 +65,7 @@ $$\text{useful work done}=W=Q_1-Q_2$$
 ### The Carnot cycle
 The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
 $$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}$$
-$$\therefore \eta = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}}{T_{\text{hot}}}$$
+$$\therefore \eta = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}$$
 
 ## B.2.4 The Second Law of Thermodynamics  
 
@@ -96,10 +97,10 @@ Entropy is a ***scalar quantity*** and has units of **joule per kelvin** ( $\tex
 
 State abd explain at which point in the cycle ABCA the entropy of the gas is the largest.  
 ![shapeOfTheCurve](/IBDP_Physics_HL/Topic%20B%20Engineering/image/cycle%20ABCA.png)
-  
-A$\to$B  
-B$\to$C  
-C$\to$A  
+
+Entropy is largest at B, entorpy increases from A to B because $T=\text{constant}$, but volume increases, so more ***disorder***.  
+
+$\Delta S = \frac{\Delta Q}{T}$, $\Delta Q>0$, $\therefore \Delta S>0$
 
 ##
 
