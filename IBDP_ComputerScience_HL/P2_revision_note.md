@@ -6,12 +6,13 @@ An ***object*** is an abstract entity and its components are data and actions.
 | Terms | Definitions |
 | --- | --- |
 | Constructor | A special kind of method, which is only declared once, that is called when an object is instantiated so that it initializes its data with specific values. Method name is same as the class name. |
-| Accessor | A special kind of method that is called in order to read a specific data value of an object. Use the prefix “get” in the method name. |
->As the variables are declared as ***private*** in order protect data from accidental changes or from outside the object; 
->
->They cannot be accessed directly from outside this class;
->
->Therefore, ***public*** accessor methods are needed to ***permit access***; 
+| Accessor | A special kind of method that is called in order to read a specific data value of an object. Use the prefix “get” in the method name. |  
+
+As the variables are declared as ***private*** in order protect data from accidental changes or from outside the object; 
+
+They cannot be accessed directly from outside this class;
+
+Therefore, ***public*** accessor methods are needed to ***permit access***; 
 
 | Terms | Definitions |
 | --- | --- |
@@ -22,22 +23,26 @@ An ***object*** is an abstract entity and its components are data and actions.
 | Object reference (pointer) | A reference is a variable whose value points to the location of an object (in memory) |
 | Libraries | There consist of pre-written code, classes, procedures, methods etc. that programmers can use to add more functionality to their programs without having to rewrite the equivalent code.  |
 
->#### Advantages of using libraries: 
->
->Saves development time;  
->Since classes and their methods do not need to be rewritten;
->
->Promotes abstraction;  
->Because reusable code exists that functions without knowledge of internal working;
->
->Libraries contain error-free code;  
->Because it has been used and tested for many times;
->
->Promotes efficiency and organization;  
->As code will be shorter and easier to read;
->
->Familiarity with libraries;  
->Allow for easier maintenance or modification;
+##
+
+#### Advantages of using libraries: 
+
+Saves development time;  
+Since classes and their methods do not need to be rewritten;
+
+Promotes abstraction;  
+Because reusable code exists that functions without knowledge of internal working;
+
+Libraries contain error-free code;  
+Because it has been used and tested for many times;
+
+Promotes efficiency and organization;  
+As code will be shorter and easier to read;
+
+Familiarity with libraries;  
+Allow for easier maintenance or modification;
+
+##
 
 ### Modifier
 | Terms | Definitions |
@@ -47,11 +52,19 @@ An ***object*** is an abstract entity and its components are data and actions.
 | Final | Prevents variables from being modified. |
 | Static | Refers to variables that act on the class as a ***whole***. |
 
->#### Distinguish between a class and an instantiation.  
->
->A class is the blueprint of an object which does not occupy any memory in a program.
->
->An instantiation is the creation of an actual object which occupies enough memory to accommodate the object’s data and actions 
+##
+
+#### Distinguish between a class and an instantiation.  
+A class is the blueprint of an object which does not occupy any memory in a program.  
+An instantiation is the creation of an actual object which occupies enough memory to accommodate the object’s data and actions 
+
+##
+
+#### Define the relationships between object, objects’ data and objects’ actions.  
+
+An object is thus an abstract entity that describes the data that this entity has (properties or attributes) and the actions that this entity can perform (methods).   
+
+##
 
 >#### M16 17, (c) discuss how the use of library classes simplifies the construction of the methods in parts(a) and (b) (asking for ArrayList)
 >Can use the ArrayList library class; 
@@ -73,13 +86,18 @@ An ***object*** is an abstract entity and its components are data and actions.
 ### Definition
  A computer programming model that organizes software design around data, or ***objects***, rather than functions and logic. 
 
+##
+
 ### Features
 * Polymorphism  
 * Encapsulation 
 * Inheritance 
 
+##
+
 ### Advantages  
 * Re-use object;    
+
   * Which will speed up development.  
 * Work can be ***split up*** across the sub-topics;  
   * Which will speed up development.  
@@ -88,21 +106,29 @@ An ***object*** is an abstract entity and its components are data and actions.
 * Quicker to test;  
   * As each module is small and independent;
 
+##
+
 ### Disadvantages  
 * Unsuitable for ***minor projects***;  
+
   * Since OOP increase complexity for little gain.  
 * OOP programs are larger than other programs;  
   * Add therefore slower.  
 * OOP programs take ***more effort*** to construct
   * Because of the decomposition needed to achieve abstraction.  
 
+##
+
 ### Advantgaes of using ***modularity***
 * Faster development;  
+
   * Because different programming teams can work on ***different modules***.  
 * Easier to debug;  
   * Because the ***smaller modules*** will have ***fewer mistakes*** than one big program;  
 * Easier to update (in the future);
   * Because it is easier to ***update a module*** than the full program.  
+
+##
 
 >#### N15 (d) In relation to the Doctor object, outline the need for extended character sets as used by modern programming languages.  
 >
@@ -111,6 +137,8 @@ An ***object*** is an abstract entity and its components are data and actions.
 >Extended character sets (like ***Unicode***) include all possible characters from all languages;  
 >
 >For example, the doctor’s name could not be spelled correctly in ***ASCII***;  
+
+##
 
 >#### M16 16, the company wished to update this OOP program and sell it to other hotels. They hire a programmer to make appropriate changes to the program
 >(a)	Outline the responsibilities that the programmer has when updating the program.
@@ -123,9 +151,13 @@ An ***object*** is an abstract entity and its components are data and actions.
 >* International character sets;
 >* Changes are straightforward;
 
+##
+
 # Polymorphism (OOP's features)
 ### Definition 
 *(empty)*
+
+##
 
 ### ***Overload***  
 * The constructors have ***different parameter sets*** (or equivalent);  
@@ -134,10 +166,14 @@ An ***object*** is an abstract entity and its components are data and actions.
 
 * The compiler will execute the constructor whose ***parameter set matches*** the arguments in the constructor call;  
 
+##
+
 ### ***Override***  
 * Allows for subclasses to ***alter any superclasses actions*** and make them ***specific to their needs***;  
 
 * Method overrding ***redefines a method*** from the inherited class;  
+
+##
 
 ### Advantages of using ***Polymorphism***  
 * Polymorphism allows an external program to use the same method actions on all subclasses;
@@ -145,6 +181,8 @@ An ***object*** is an abstract entity and its components are data and actions.
 * By allowing overridden functions in child classes to add only the code that is needed for the unique processing of that sub-class;
 
 * In this example, the `getWeight()` method returns the weight of each piece of `RollingStock` . In the case of a wagon, the additional computation needed to add the weight of the cargo is added;
+
+##
 
 >#### M19 15, (c) outline how method overriding can help to create the new class FinalsOnlyEvent
 >* Method overriding redefines a method from the inherited class;
@@ -155,14 +193,20 @@ An ***object*** is an abstract entity and its components are data and actions.
 >
 >* The method `fillFinals()` could do nothing;
 
+##
+
 >#### M18 15(b) with reference to the two methods with the same name in the Points class, explain the OOP features that makes it possible to successfully implement either of these methods.
 >Overloading;  
 >The constructor methods have a different type of parameters;  
 >During method calling, compiler will determine which of these methods is selected;  
 >By matching up with the parameters;  
 
+##
+
 ### Disadvantages of using ***Polymorphism***  
 *(empty)*
+
+##
 
 # Encapsulation (OOP'sfeatures)  
 ### Definition  
