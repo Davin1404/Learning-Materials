@@ -21,6 +21,7 @@ $$p_0=\text{Atmospheric pressure}$$
 
 ### U tube
 $$h_1 \rho _1=h_2 \rho_2 \tag{5}$$  
+
 ![uTude](/IBDP_Physics_HL/Topic%20B%20Engineering/image/uTube.png)  
 
 ### Pascal'ss principle  
