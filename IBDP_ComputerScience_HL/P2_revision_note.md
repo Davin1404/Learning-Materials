@@ -189,7 +189,7 @@ Therefore the compiler (allow program) knows which method to use.
 
 ##
 
-### ***Override***  
+### ***Override***  (Inheritance)
 * Allows for subclasses to ***alter any superclasses actions*** and make them ***specific to their needs***;  
 
 * Method overrding ***redefines a method*** from the inherited class;  

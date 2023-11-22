@@ -83,3 +83,8 @@ $$\text{Unit: }\text{m}^3\text{s}^{-1}$$
 ##
 
 ### The Bernoulli equation 
+$$\frac{1}{2} \rho v^2+\rho gh+P=\text{constant}$$
+
+##
+
+### Applications of the Bernoulli equation 
