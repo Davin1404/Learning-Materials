@@ -53,10 +53,24 @@ Allow for easier maintenance or modification;
 | Static | Refers to variables that act on the class as a ***whole***. |
 
 ##
+#### Static  
+Static means it is the same for all instances of the class;  
+because it is contained in the class rather than in an instance of the class/object / it is defined 
+at the class level;
+
+Static means that less memory is taken up;  
+as only 1 memory allocation it created for all instances rather than 1 per instance;  
+
+|Static variables|Static methods|
+|---|---|
+|Static variable is a class variable not re-declared in each object; The values are the ***same*** for all objects;|Are class methods (not object methods); Are ***independent*** of the objects in the class;|
+
+##
 
 #### Distinguish between a class and an instantiation.  
-A class is the blueprint of an object which does not occupy any memory in a program.  
-An instantiation is the creation of an actual object which occupies enough memory to accommodate the object’s data and actions 
+* A class is the blueprint of an object which does not occupy any memory in a program. ***Do not occupy any memory in a program***.  
+
+* An instantiation is the creation of an actual object which ***occupies enough memory to accommodate the object’s data and actions***.   
 
 ##
 
@@ -159,6 +173,13 @@ An object is thus an abstract entity that describes the data that this entity ha
 
 ##
 
+### Characteristics
+Each method is defined within its own class.  
+Each method is called within an object of that class.  
+Therefore the compiler (allow program) knows which method to use.  
+
+##
+
 ### ***Overload***  
 * The constructors have ***different parameter sets*** (or equivalent);  
 
@@ -210,14 +231,23 @@ An object is thus an abstract entity that describes the data that this entity ha
 
 # Encapsulation (OOP'sfeatures)  
 ### Definition  
-* Encapsulation places ***all attributes and methods*** that relate to a ***particular object;  
+* Encapsulation places ***all attributes and methods*** that relate to a ***particular*** object;  
 
-* Encapsulation allows to make instance variable and method of a class ***private*** to that class;  
+* Encapsulation allows to make instance variable and method of a class ***private*** to that class. So that the main program ***cannot directly access*** the data in an object;  
 
-* So that the main program ***cannot directly access*** the data in an object;  
+##
+
+### Characteristics
+
+By using private for variables Data can be protected from accidental changes or from outside the object; ***accessor*** and ***mutator*** method are in the place in order that other classes will access.  
+
+The class combines data and methods; So as to reuse the code for multiple dates.
+
+
+##
 
 ### Advantages of using ***Encapsulation***  
-* Encapsulation places all attributes and methods that relate to a particular object;
+* Encapsulation places all ***attributes*** and ***methods*** that relate to a ***particular*** object;
   
   * For example, Payment class includes attributes such as the food and drink arrays and method such as `calculateBill()`;
   
@@ -233,8 +263,12 @@ An object is thus an abstract entity that describes the data that this entity ha
  
   * This allows programmers to select any variable names they wish on choice of variable names; 
 
+##
+
 ### Disadvantages of using ***Encapsulation***  
 *(empty)*
+
+##
 
 # Inheritance  (OOP’s features) (“is a”)
 ### Definition
@@ -243,6 +277,8 @@ An object is thus an abstract entity that describes the data that this entity ha
 * The new class inherits ***all properties and method*** of the other class;   
 
 * The derived class is called a subclass, and the original is called a superclass.  
+
+##
 
 ### Advantages of using ***Inheritance***  
 * It promotes code reuse;  
@@ -260,8 +296,12 @@ An object is thus an abstract entity that describes the data that this entity ha
 * It allows extensibility 
   * that specific types of check-outs can be created which reduces development time, costs and testing. 
 
+##
+
 ### Disadvantages of using ***Inheritance***  
 *(empty)*
+
+##
 
 # Aggregation (“has a”)
 ### Definition 
@@ -276,18 +316,30 @@ An object is thus an abstract entity that describes the data that this entity ha
 ### Disadvantages of using ***Aggregation***  
 * Aggregation increases ***dependencies*** that a change in the owner class (e.g., in M19 the Swimmer class) could have an unexpected consequence for the subclass (e.g., in M19 the Race class);
 
-* Using aggregation can lead to more complex code; when accessing functions of the aggregated object;
+* Using aggregation can lead to ***more complex code***; when accessing functions of the aggregated object;
+
+##
 
 # Dependencies (“uses a”)
 ### Definition 
 *(empty)*  
 
+##
+
 ### Advantages of using ***Dependencies***  
 *(empty)*  
 
+##
 
 ### Disadvantages of using ***Dependencies***  
-*(empty)*  
+* Dependencies when one object uses another object, the first object depends on the second, since it cannot function without it. Whenever the first object needs to be used, the second object will be used as well.  
+
+* Dependencies are ***directional***, in that an object can depend on another object, but the second object does not necessarily need to depend on the first object as well.   
+
+* For example, if object A depends on object B, it does not necessarily mean that B also depends on A. 
+
+
+##
 
 >#### The reasons for keeping dependencies to a minimum
 >
@@ -297,6 +349,7 @@ An object is thus an abstract entity that describes the data that this entity ha
 >Reduce maintenance overheads;  
 >As a programmer editing one class would not have to be concerned with other classes;
 
+##
 
 >#### Outline two reasons why the use of multiple programming teams in different locations may be problematic when developing an integrated software solution.
 >   
@@ -312,6 +365,7 @@ An object is thus an abstract entity that describes the data that this entity ha
 >
 >vi.	Development time might increase;
 
+##
 
 >#### N19 17, (f) explain the importance of using coding style and naming conventions when programming
 >i.	Indentation/use of white space  
