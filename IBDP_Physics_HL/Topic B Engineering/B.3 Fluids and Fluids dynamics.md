@@ -21,13 +21,40 @@ $$p_0=\text{Atmospheric pressure}$$
 
 ### U tube
 $$h_1 \rho _1=h_2 \rho_2 \tag{5}$$  
-![uTude](/IBDP_Physics_HL/Topic%20B%20Engineering/image/Screenshot%202023-11-22%20084841.png)  
+![uTude](/IBDP_Physics_HL/Topic%20B%20Engineering/image/uTube.png)  
 
-### Pascaal'ss principle  
+### Pascal'ss principle  
 The pressure applied at one point in an enclosed fluid under equilibrium conditions is transmitted equally to all parts of the fluid.  
 
 $$p_1=\frac{F_1}{A_1}=\frac{F_2}{A_2}\tag{6}$$  
 
 $$P_1 = \text{Pressure throughout fluid}$$
 
-![uTude](/IBDP_Physics_HL/Topic%20B%20Engineering/image/PascalPrinciple.png)  
+![pascal](/IBDP_Physics_HL/Topic%20B%20Engineering/image/PascalPrinciple.png)  
+
+## B.3.2 Archimedes' principle  
+For an object wholly or partially immersed in a fluid, there will be an upward buoyancy force (upthrust) acting on the object which is equal to the weight of fluid that the object displaces.   
+
+$$B=\rho _f V_f g\tag{7}$$  
+$$B = \text{Buoyancy (upthrust) force}$$
+$$V_f = \text{Volume of fluid that the object displaces}$$  
+
+#### ⚠️The origin of the buoyancy force:   
+Pressure in a liquid increases with depth, so pressure at bottom of bubble greater than pressure at top.  
+
+## B.3.3 Fluid dynamics  
+### An ideal fluid  
+An ideal fluid offers ***no resistance*** either to a solid moving through it or it moving through or around a solid object.   
+
+* ***Non-viscous***
+  * Does not exert forces on other fluids.  
+* ***Laminar*** flow
+  * Fluid velocity of a point in the fluid is constant.  
+* ***Incompressible*** 
+  * The fluid cannot be compressed and so density is constant throughout.  
+
+### Streamline (or laminar) flow  
+#### Streamline 
+The paths taken by particles within a fluid.  
+
+#### The continuity equation
