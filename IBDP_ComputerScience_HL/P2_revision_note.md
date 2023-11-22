@@ -556,20 +556,15 @@ public boolean removeByName(LinkedList<Student> studentList, Stringname){
 ### Definition
 *(empty)*
 
-### Advantages of using "***Binary Tree***"
-* Binary search is ***much faster*** than *sequential search*;  
-  
-* Because it reduces the search space by half in each time;
+##
 
+|Pros|Cons|
+|---|---|
+|***Fast searching*** - it reduces the search space by half in each time|***Heavy memory usage*** - nodes are located dynamically and require pointers , so it will take up more memory|
+|***Dynamic structure*** - easy insertion and deletion of end nodes|***Complexity of root deletion*** - Root node delete is complex |
+|***Easy to implement and debug***||
 
-### Disadvantages of using "***Binary Tree***"
-* Binary search is not ***applicable*** to ***unsorted*** data sets;  
-
-  * Because the data must be sorted first which adds to computational cost; 
-
-* It can be difficult to manipulate pointers or references in a binary tree; 
-
-  * Which makes it more difficult to add or delete objects in a binary tree;
+##
 
 >#### M19 17, (b) outline one reason why a linked list may be more suitable than a binary tree in this particular situation 
 >* The ease of which pointers or references can be manipulated in a linked list;   
@@ -595,9 +590,31 @@ The solution repeats the same algorithm;
 With a changing parameter set;  
 Until a terminating case is reached; 
 
+##
+
+|Pros|Cons|
+|---|---|
+|Code is clean and elegant|Recursive logic can be hard to follow|
+|Break down complex problem into smaller subproblems|Inefficient due to memory and time overhead to repeated function calls|
+|Sequence generation is easier than with nested loops|Hard to debug|
+
+##
+
+### Ideal cases
+* Traversing tree-like data structures.  
+  * Recursion is ideal for traversing tree-like data structures, such as Binary Search Trees or file systems. The recursive function can be called on each node of the tree, allowing you to visit all of the nodes in a structured and efficient way
+* Solving complex mathematical problems. 
+  * Such as the Fibonacci sequence, it breaks down complex problem into smaller subproblems
+
+##
+
+### Inappropriate cases
 > #### M19 17, (b) outline one reason why the use of a recursive method may be inappropriate for linked lists
->* For a *large* linked list, this would require a *large number* of recursive calls which may cause ***stack overflow***;
->* A linked list only allows for sequential access; Therefore, using recursion ***would not*** lead to any gains in ***efficiency***;
+* For a *large* linked list, this would require a *large number* of recursive calls which may cause ***stack overflow***;
+* A linked list only allows for sequential access; Therefore, using recursion ***would not*** lead to any gains in ***efficiency***;
+
+##
+
 
 >#### N17 19, (b) without writing code, describe the recursive method palindrome() that returns whether or not a word is a palindrome;
 >* The index of last character <= index of the first character; 
