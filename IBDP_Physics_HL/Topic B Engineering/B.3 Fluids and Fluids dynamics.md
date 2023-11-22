@@ -5,10 +5,14 @@ The mass per unit volume of a substance.
 $$\text{density}=\frac{\text{mass}}{\text{volume}}\tag{1}$$  
 $$\rho = \frac{m}{V}$$
 
+##
+
 ### Pressure
 The normal force acting per unit cross-sectional area  
 $$\text{pressure}=\frac{\text{normal force}}{\text{cross-sectional area}}\tag{2}$$  
 $$P=\frac{F}{A}$$  
+
+##
 
 ### Hydrostatic Pressure in a Fluid  
 $$P=\rho gh\tag{3}$$  
@@ -19,10 +23,14 @@ $$g=\text{Gravitational field strength}$$
 $$P=\rho gh+p_0\tag{4}$$  
 $$p_0=\text{Atmospheric pressure}$$
 
+##
+
 ### U tube
 $$h_1 \rho _1=h_2 \rho_2 \tag{5}$$  
 
 ![uTude](/IBDP_Physics_HL/Topic%20B%20Engineering/image/uTube.png)  
+
+##
 
 ### Pascal'ss principle  
 The pressure applied at one point in an enclosed fluid under equilibrium conditions is transmitted equally to all parts of the fluid.  
@@ -43,6 +51,8 @@ $$V_f = \text{Volume of fluid that the object displaces}$$
 #### ⚠️The origin of the buoyancy force:   
 Pressure in a liquid increases with depth, so pressure at bottom of bubble greater than pressure at top.  
 
+##
+
 ## B.3.3 Fluid dynamics  
 ### An ideal fluid  
 An ideal fluid offers ***no resistance*** either to a solid moving through it or it moving through or around a solid object.   
@@ -54,8 +64,22 @@ An ideal fluid offers ***no resistance*** either to a solid moving through it or
 * ***Incompressible*** 
   * The fluid cannot be compressed and so density is constant throughout.  
 
+##
+
 ### Streamline (or laminar) flow  
 #### Streamline 
 The paths taken by particles within a fluid.  
 
-#### The continuity equation
+#### ⚠️The continuity equation  
+$$Av=\text{constant}\tag{8}$$  
+$$A=\text{Cross-section area}$$  
+$$v=\text{velocity of the fluid}$$
+
+$$\text{voume flow rate: } Av$$
+$$\text{Unit: }\text{m}^3\text{s}^{-1}$$
+
+![TCE](/IBDP_Physics_HL/Topic%20B%20Engineering/image/maxresdefault.jpg) 
+
+##
+
+### The Bernoulli equation 
