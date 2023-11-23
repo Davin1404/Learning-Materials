@@ -23,7 +23,7 @@ $W=$ *the work done by the system as it expands and pushed back the surroundings
 |Negative|Thermal energy is **removed** from the system to surrounding|**Decrease** in internal energy|Work is done **on** the gas|
 
 ### The work done in an isobaric change 
-$$W=p\Delta V$$
+$$W=p\Delta V \tag{7}$$
 
 ###  The work done for a non-isobaric change
 *Total energy = Area of the curve*
@@ -34,8 +34,9 @@ $\Delta U=0$
 No change in the temperature of the system, the internal energy of the system staying constant.  
 $$\therefore Q=W$$
 
-$$pV=nRT$$
-$$p=\frac{k}{V}=constant$$
+$$pV=nRT\tag{8}$$  
+
+$$P=\frac{k}{V}=constant\tag{9}$$
 
 ### Adiabatic changes (in ideal gas)
 $Q=0$  
@@ -43,7 +44,7 @@ No thermal energy is transferred between the system annd the surroundings
 $$\therefore \Delta U=W$$
 
 #### Adiabatic processes for monatomic gases
-$$pV^{\frac{5}{3}}=constant$$
+$$pV^{\frac{5}{3}}=constant\tag{10}$$
 
 Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because ***work has been done***.  
 
@@ -52,7 +53,7 @@ $W=0$
 No work can be done by or on the system  
 $$Q=\Delta U$$ 
 The equation of state for an isovolumetric change is: 
-$$\frac{P}{T}=constant$$
+$$\frac{P}{T}=constant\tag{11}$$
 
 ### P-V diagrams and thermodynamic cycles
 
@@ -64,8 +65,10 @@ $$\text{useful work done}=W=Q_1-Q_2$$
 
 ### The Carnot cycle
 The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
-$$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}$$
-$$\therefore \eta = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}$$
+$$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}\tag{12}$$
+$$\therefore \eta = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{13}$$  
+
+$$\eta = \text{The efficiency}$$
 
 ## B.2.4 The Second Law of Thermodynamics  
 
