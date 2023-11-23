@@ -81,7 +81,7 @@ It is impossible to extract energy from a hot reservoir and transfer this entire
 ### Entropy  
 A third version of the second law of thermodynamics involves the concept of entropy $S$.  
 
-$$\Delta S=\frac{\Delta Q}{T}$$  
+$$\Delta S=\frac{\Delta Q}{T}\tag{14}$$  
 
 $$\Delta S = \text{the increase in entropy}$$  
 
