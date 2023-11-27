@@ -87,7 +87,7 @@ $$\frac{1}{2} \rho v^2+\rho gh+P=\text{constant}\tag{9}$$
 
 ##
 
-## Applications of the Bernoulli equation 
+## B.3.4 Applications of the Bernoulli equation 
 
 ### Airfoil
 ⚠️***Height*** constant⚠️ as we assume that airfoil is very thin.  
@@ -158,4 +158,73 @@ $$v_y=\sqrt{2gh_x}\tag{ANS}$$
 
 ![flow](/IBDP_Physics_HL/Topic%20B%20Engineering/image/Flow.png)
 
+##
+
+## B.3.5 Stokes' law and viscosity  
+### Viscosity  
+The viscosity $\eta$ of fluids is highly temperature dependent.  
+It has the units $\text{Pas}$
+
+* For ***liquids***, ***less*** viscous at higher temperature  
+* For ***gases***, ***more*** viscous at higher temperature.  
+
+### Stokes' law
+
+$$F_d=6\pi \eta rv\tag{10}$$  
+
+##
+$$r=\text{Radius of the sphere}$$  
+
+$$v=\text{Speed of the sphere}$$  
+
+$$\eta = \text{a constant, coefficient of viscosity, unit (Pas)}$$  
+##
+
+### Terminal speed 
+
+$$6\pi \eta rv_t+\frac{4}{3}\pi r^3 \rho g=mg$$  
+
+$$\therefore 6\pi \eta rv_t+\frac{4}{3}\pi r^3 \rho g=\frac{4}{3}\pi r^3\sigma g$$  
+
+$$\therefore v_t = \frac{2r^2g(\sigma-\rho)}{9\eta} \tag{11}$$  
+
+##
+$$v_t = \text{Ball's terminal speed}$$  
+
+$$\rho = \text{The density of fluid}$$  
+
+$$\sigma = \text{The density of the ball}$$  
+##
+
+assumption 1: sphere  
+assumption 2: laminen flow  
+
+## B.3.6 Laminnar flow and turbulent flow  
+
+|Laminar Flow|Turbulent Flow|
+|---|---|
+|The velocity of the fluid is constant any point in the fluid.  |The velocity is not constant.|  
+
+![Turbulent fow](/IBDP_Physics_HL/Topic%20B%20Engineering/image/Turbulent.png)  
+
+### Reynolds number
+Reynolds number $R$ can be used to predict whether the flow is great enough to become turbulent.  
+
+$$R=\frac{vr\rho}{\eta} \tag{12}$$  
+
+|after the calculation|conclusion|
+|---|---|
+|$R<1000$|Laminar flow|
+|$R>1000$|It does not mean that the flow will be turbulent because there is a transition stage between the fluid being laminar or turbulent|
+|$R>2000$|Turbulent flow|
+
+
+##
+$$v=\text{velocity}$$  
+
+$$r=\text{radius of the pipe}$$  
+
+$$\rho = \text{Density of the liquid}$$
+
+$$\eta = \text{Viscosity of the liquid}$$  
 ##
