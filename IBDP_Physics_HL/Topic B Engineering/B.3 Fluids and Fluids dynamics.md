@@ -121,7 +121,7 @@ $$\frac{1}{2}\rho (v_1^2-v_2^2)=\rho g \Delta h $$
 
 $$\rho g \Delta h=\text{hydrostatic pressure}$$
 
-$$\Delta h = \frac{1}{2g}(v_1^2-v_2^2)\tag{\text{ANS}}$$  
+$$\Delta h = \frac{1}{2g}(v_1^2-v_2^2)\tag{ANS}$$  
 
 ![vTubes](/IBDP_Physics_HL/Topic%20B%20Engineering/image/2560px-Venturi5.png) 
 
@@ -138,7 +138,7 @@ $$\frac{1}{2}\rho v_1^2 = P_2-P_1$$
 
 $$\frac{1}{2}\rho v_1^2 = \rho g \Delta h$$
 
-$$v_1=\pm \sqrt{2g\Delta h}\tag{\text{ANS}}$$  
+$$v_1=\pm \sqrt{2g\Delta h}\tag{ANS}$$  
 
 ![pitot](/IBDP_Physics_HL/Topic%20B%20Engineering/image/pitot.png)
 
@@ -154,7 +154,7 @@ $$\frac{1}{2}\rho v_x^2 + \rho gh_x = \frac{1}{2}\rho v_y^2 + \rho gh_y$$
 
 $$\rho g(h_x-h_y)=\frac{1}{2}\rho v_y^2$$  
 
-$$v_y=\sqrt{2gh_x}\tag{\text{ANS}}$$  
+$$v_y=\sqrt{2gh_x}\tag{ANS}$$  
 
 ![flow](/IBDP_Physics_HL/Topic%20B%20Engineering/image/Flow.png)
 
