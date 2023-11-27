@@ -83,11 +83,26 @@ $$\text{Unit: }\text{m}^3\text{s}^{-1}$$
 ##
 
 ### The Bernoulli equation 
-$$\frac{1}{2} \rho v^2+\rho gh+P=\text{constant}$$
+$$\frac{1}{2} \rho v^2+\rho gh+P=\text{constant}\tag{9}$$
 
 ##
 
-### Applications of the Bernoulli equation 
+## Applications of the Bernoulli equation 
+
+### Airfoil
+⚠️***Height*** constant⚠️ as we assume that airfoil is very thin.  
+
+Find lift force.  
+
+$$\frac{1}{2}\rho v_1^2+\sout{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\sout{\rho g z_2} +P_2$$  
+
+$$\frac{1}{2}\rho (v_1^2-v_2^2)=P_2-P_1$$  
+
+$$\because F_{\text{lift}}=\Delta P\times A$$  
+
+$$\therefore F_{\text{lift}}=\frac{1}{2}\rho (v_1^2-v_2^2)\times A\tag{ANS}$$  
+
+![airfoil](/IBDP_Physics_HL/Topic%20B%20Engineering/image/airfoil.jpg)
 
 ##
 
@@ -96,7 +111,7 @@ $$\frac{1}{2} \rho v^2+\rho gh+P=\text{constant}$$
 
 Find pressure / height difference.  
 
-$$\frac{1}{2}\rho v_1^2+\overline{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\overline{\rho g z_2} +P_2$$  
+$$\frac{1}{2}\rho v_1^2+\sout{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\sout{\rho g z_2} +P_2$$  
 
 $$\frac{1}{2}\rho v_1^2+P_1=\frac{1}{2}\rho v_2^2+P_2$$  
 
@@ -104,7 +119,7 @@ $$\frac{1}{2}\rho (v_1^2-v_2^2)=P_2-P_1$$
 
 $$\frac{1}{2}\rho (v_1^2-v_2^2)=\rho g \Delta h $$  
 
-$$h=\text{hydrostatic pressure}$$
+$$\rho g \Delta h=\text{hydrostatic pressure}$$
 
 $$\Delta h = \frac{1}{2g}(v_1^2-v_2^2)\tag{\text{ANS}}$$  
 
@@ -117,13 +132,15 @@ $$\Delta h = \frac{1}{2g}(v_1^2-v_2^2)\tag{\text{ANS}}$$
 ⚠️***Height*** constant⚠️  
 ⚠️***Final velocity*** $=0$⚠️    
 
-$$\frac{1}{2}\rho v_1^2+\overline{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\overline{\rho g z_2} +P_2$$  
+$$\frac{1}{2}\rho v_1^2+\sout{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\sout{\rho g z_2} +P_2$$  
 
 $$\frac{1}{2}\rho v_1^2 = P_2-P_1$$  
 
 $$\frac{1}{2}\rho v_1^2 = \rho g \Delta h$$
 
-$$v_1=\pm \sqrt{2g\Delta h}\tag{\text{ANS}}$$
+$$v_1=\pm \sqrt{2g\Delta h}\tag{\text{ANS}}$$  
+
+![pitot](/IBDP_Physics_HL/Topic%20B%20Engineering/image/pitot.png)
 
 ##
 
@@ -138,5 +155,7 @@ $$\frac{1}{2}\rho v_x^2 + \rho gh_x = \frac{1}{2}\rho v_y^2 + \rho gh_y$$
 $$\rho g(h_x-h_y)=\frac{1}{2}\rho v_y^2$$  
 
 $$v_y=\sqrt{2gh_x}\tag{\text{ANS}}$$  
+
+![flow](/IBDP_Physics_HL/Topic%20B%20Engineering/image/Flow.png)
 
 ##
