@@ -392,7 +392,12 @@ The class combines data and methods; So as to reuse the code for multiple dates.
 FILO (first in last out) data structure.  
 
 >#### Applications:  
->The system stack stores return data of interrupted processes; The last interrupted process is the first to resume.  
+>The system stack stores return data of interrupted processes; The last interrupted process is the first to resume. 
+>
+>Return addresses (for subroutines) might be placed on a stack;
+>Stacks are used in evaluating expressions;  
+>Stacks are used in translating from one computer language to another;  
+>All processing is based on the Last-In-First-Out (LIFO) policy;   
 
 # Queue
 ### Definition
@@ -405,6 +410,13 @@ FIFO (first in first out) data structure, only allowss addition at the end and r
 * This is not sufficient in scenarios that elements can ***change freely***;  
 * Because it is a ***FIFO data structure*** / only allows addition at the end and removal from the front;
 * It has no ***fixed length*** which could lead to ***unmanageable***;
+
+>#### Applications:  
+>Key strokes from a keyboard would be placed in a queue;  
+>Items from processor/memory to output to a peripheral device would be place in a queue;  
+>Programs which are ready to run are placed in a queue;  
+>Queues are used in simulation processes;  
+>Supports remove and insert operations using FIFO (First-In-First-Out) mode;  
 
 # ArrayList 
 
