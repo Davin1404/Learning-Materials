@@ -130,7 +130,7 @@ $$\Delta h = \frac{1}{2g}(v_1^2-v_2^2)\tag{ANS}$$
 ### Pitot static tubes
 **Function**: measuring the velocity of a fluid of density $\rho$.  
 ⚠️***Height*** constant⚠️  
-⚠️***Final velocity*** $v_y=0$⚠️    
+⚠️***Final velocity*** $=0$⚠️    
 
 $$\frac{1}{2}\rho v_x^2+\sout{\rho g z_x}+P_x=\frac{1}{2}\rho v_y^2+\sout{\rho g z_y} +P_y$$  
 

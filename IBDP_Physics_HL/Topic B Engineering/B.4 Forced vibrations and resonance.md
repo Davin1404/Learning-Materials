@@ -14,3 +14,13 @@ Reduction in amplitude or energy of oscillations due to resistive forces.
 |Amplitude gradually decreases|A system returning to its equilibrium position in the shortest possible time|A system taking longer time to return to the equilibrium position|  
 
 ![three damping](/IBDP_Physics_HL/Topic%20B%20Engineering/image/threeDamping.png)
+
+## B.4.3 Resonance
+|Driving/Forced frequency|Natural frequency|
+|---|---|
+|Frequency at which object is made to oscillate|Frequency at which object vibrates when free to do so |
+
+Maximum amplitude of vibration of oscillating body when forced frequency equals natural frequency (of vibration).  
+
+### Graph for resonance and dampling (driving frequency)  
+![resonance and dampling](/IBDP_Physics_HL/Topic%20B%20Engineering/image/ResonanceAndDamping.png)
