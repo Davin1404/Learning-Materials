@@ -130,15 +130,15 @@ $$\Delta h = \frac{1}{2g}(v_1^2-v_2^2)\tag{ANS}$$
 ### Pitot static tubes
 **Function**: measuring the velocity of a fluid of density $\rho$.  
 ⚠️***Height*** constant⚠️  
-⚠️***Final velocity*** $=0$⚠️    
+⚠️***Final velocity*** $v_y=0$⚠️    
 
-$$\frac{1}{2}\rho v_1^2+\sout{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\sout{\rho g z_2} +P_2$$  
+$$\frac{1}{2}\rho v_x^2+\sout{\rho g z_x}+P_x=\frac{1}{2}\rho v_y^2+\sout{\rho g z_y} +P_y$$  
 
-$$\frac{1}{2}\rho v_1^2 = P_2-P_1$$  
+$$\frac{1}{2}\rho v_x^2 = P_y-P_x$$  
 
-$$\frac{1}{2}\rho v_1^2 = \rho g \Delta h$$
+$$\frac{1}{2}\rho v_x^2 = \rho g \Delta h$$
 
-$$v_1=\pm \sqrt{2g\Delta h}\tag{ANS}$$  
+$$v_x=\pm \sqrt{2g\Delta h}\tag{ANS}$$  
 
 ![pitot](/IBDP_Physics_HL/Topic%20B%20Engineering/image/pitot.png)
 
