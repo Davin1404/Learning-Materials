@@ -23,4 +23,9 @@ Reduction in amplitude or energy of oscillations due to resistive forces.
 Maximum amplitude of vibration of oscillating body when forced frequency equals natural frequency (of vibration).  
 
 ### Graph for resonance and dampling (driving frequency)  
+* For zero damping
+  * The amplitude would be infinite, however, this could not happen in partice because infinite amplitude would require an infinite amount of energy to be supplied
+* As the damping increases the peak moves slightly to the left of the natural frequency.  
+* Increased dampling reduces the sharpness of the resonance peak.  
+
 ![resonance and dampling](/IBDP_Physics_HL/Topic%20B%20Engineering/image/ResonanceAndDamping.png)
