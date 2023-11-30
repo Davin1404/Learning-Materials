@@ -49,3 +49,13 @@ $$2\pi \times \text{resonant frequency}\times \frac{\text{energy stored}}{\text{
 * The larger the $Q$ factor, the sharper the resonance peak on the graph of amplitude against driving frequency.  
 * A ***high quality*** factor means a low loss of energy.  
 * The $Q$ factor is approximately the number of oscillations thaat the system will make before its amplitude decays to zero.  
+
+## The useful and destructive effects of resonance  
+|Useful effects||
+|---|---|
+|**Microwave cooker**|emit electromagnetic waves that match the natural frequency of water molecules in food|
+|**Musical instrument**|the sound box of musical instruments amplifies the energy, causing air in the box to resonate at the same frequency |
+
+|Destructive effects|
+|---|
+|The Tacoma Narrows Bridge in Washington State, USA, collapsed in November 1940 as a result of cross winds matching its natural frequency|
