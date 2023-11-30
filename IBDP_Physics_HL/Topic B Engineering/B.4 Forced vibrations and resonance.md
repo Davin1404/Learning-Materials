@@ -29,3 +29,23 @@ Maximum amplitude of vibration of oscillating body when forced frequency equals 
 * Increased dampling reduces the sharpness of the resonance peak.  
 
 ![resonance and dampling](/IBDP_Physics_HL/Topic%20B%20Engineering/image/ResonanceAndDamping.png)
+
+## Q factor
+The "quality" factor is a criterion by which the sharpness of resonance can be assessed.  
+$Q$ has no unit.  
+
+$$Q=2\pi \frac{\text{energy stored}}{\text{energy dissipated per cycle}}$$  
+
+$$2\pi \times \text{resonant frequency}\times \frac{\text{energy stored}}{\text{power loss}}$$  
+
+|Oscillator|Q factor|
+|---|---|
+|Critically damped door|$0.5$|
+|Loaded test tube oscillating in water|$10$|
+|Mass on spring|$50$|
+|Simple pendulum|$200$|
+|Oscillating quartz crystal|$30,000$|
+
+* The larger the $Q$ factor, the sharper the resonance peak on the graph of amplitude against driving frequency.  
+* A ***high quality*** factor means a low loss of energy.  
+* The $Q$ factor is approximately the number of oscillations thaat the system will make before its amplitude decays to zero.  
