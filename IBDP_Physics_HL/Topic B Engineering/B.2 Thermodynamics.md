@@ -10,6 +10,9 @@ $$\because k_B=\frac{R}{N_A}\tag{3}$$
 $R =$ *molar gas constant*
 $$\therefore U=\frac{3}{2}nN_A\frac{R}{N_A}T$$
 $$U=\frac{3}{2}nRT \tag{4}$$  
+
+### Isobaric change
+
 $$\Delta U=\frac{3}{2}P\Delta V\tag{5}$$
 
 ## B.2.2 The first law of thermodynamics
