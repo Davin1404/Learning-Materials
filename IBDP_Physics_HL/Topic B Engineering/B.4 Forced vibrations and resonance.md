@@ -22,6 +22,8 @@ Reduction in amplitude or energy of oscillations due to resistive forces.
 
 Maximum amplitude of vibration of oscillating body when forced frequency equals natural frequency (of vibration).  
 
+* ☝️🤓Resonant frequency = natural frequency 
+
 ### Graph for resonance and dampling (driving frequency)  
 * For zero damping
   * The amplitude would be infinite, however, this could not happen in partice because infinite amplitude would require an infinite amount of energy to be supplied
@@ -48,7 +50,7 @@ $$2\pi \times \text{resonant frequency}\times \frac{\text{energy stored}}{\text{
 
 * The larger the $Q$ factor, the sharper the resonance peak on the graph of amplitude against driving frequency.  
 * A ***high quality*** factor means a low loss of energy.  
-* The $Q$ factor is approximately the number of oscillations thaat the system will make before its amplitude decays to zero.  
+* The $Q$ factor is approximately the number of oscillations that the system will make before its amplitude decays to zero.  
 
 ## The useful and destructive effects of resonance  
 |Useful effects||
