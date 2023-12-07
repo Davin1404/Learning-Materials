@@ -107,7 +107,7 @@ $$when\space \Sigma\tau=0$$
 $$\Sigma I_i \omega_i=\Sigma I_f\omega_f$$
 
 ## B.1.9 Angular impulse
-Angular impulse $\Delta L$ is the ***product of the average torque $\tau$ and $\Delta t$***.
+Angular impulse $\Delta L$ is the ***product*** of the average torque $\tau$ and $\Delta t$.
 $$\Delta L = \tau \times \Delta t$$
 $$\Delta L = I\Delta \omega$$
 $$\therefore \Delta L = I\omega_f-I\omega_i$$
