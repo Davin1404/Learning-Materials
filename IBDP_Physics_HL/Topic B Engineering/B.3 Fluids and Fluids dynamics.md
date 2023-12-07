@@ -94,7 +94,7 @@ $$\frac{1}{2} \rho v^2+\rho gh+P=\text{constant}\tag{9}$$
 
 Find lift force.  
 
-$$\frac{1}{2}\rho v_1^2+\sout{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\sout{\rho g z_2} +P_2$$  
+$$\frac{1}{2}\rho v_1^2+\cancel{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\cancel{\rho g z_2} +P_2$$  
 
 $$\frac{1}{2}\rho (v_1^2-v_2^2)=P_2-P_1$$  
 
@@ -111,7 +111,7 @@ $$\therefore F_{\text{lift}}=\frac{1}{2}\rho (v_1^2-v_2^2)\times A\tag{ANS}$$
 
 Find pressure / height difference.  
 
-$$\frac{1}{2}\rho v_1^2+\sout{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\sout{\rho g z_2} +P_2$$  
+$$\frac{1}{2}\rho v_1^2+\cancel{\rho g z_1}+P_1=\frac{1}{2}\rho v_2^2+\cancel{\rho g z_2} +P_2$$  
 
 $$\frac{1}{2}\rho v_1^2+P_1=\frac{1}{2}\rho v_2^2+P_2$$  
 
@@ -132,7 +132,7 @@ $$\Delta h = \frac{1}{2g}(v_1^2-v_2^2)\tag{ANS}$$
 ⚠️***Height*** constant⚠️  
 ⚠️***Final velocity*** $=0$⚠️    
 
-$$\frac{1}{2}\rho v_x^2+\sout{\rho g z_x}+P_x=\frac{1}{2}\rho v_y^2+\sout{\rho g z_y} +P_y$$  
+$$\frac{1}{2}\rho v_x^2+\cancel{\rho g z_x}+P_x=\frac{1}{2}\rho v_y^2+\cancel{\rho g z_y} +P_y$$  
 
 $$\frac{1}{2}\rho v_x^2 = P_y-P_x$$  
 
