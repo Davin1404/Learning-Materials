@@ -47,7 +47,9 @@ $$I = \sum mr^2$$
 
 ## B.1.3 Torque ( $\tau$ ) - the turning effect of the force  
 ***Equation***:   
-Torque of a force = force $\times$ perpendicualr distance from he line of action the force to a point
+Torque of a force = force $\times$ perpendicualr distance from the line of action the force to a point.  
+
+Only the force that has a ***non-zero lever*** arm about the axis can provide a torque about the axis of the cylinder.  
 
 $Unit: Nm$
 

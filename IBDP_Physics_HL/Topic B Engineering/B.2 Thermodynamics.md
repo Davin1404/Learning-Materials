@@ -69,7 +69,7 @@ $$\text{useful work done}=W=Q_1-Q_2$$
 ### The Carnot cycle
 The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
 $$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}\tag{12}$$
-$$\therefore \eta = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{13}$$  
+$$\therefore \eta_{\text{Carnot}} = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{13}$$  
 
 $$\eta = \text{The efficiency}$$
 
