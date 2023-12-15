@@ -47,3 +47,33 @@
 
 ## Economic cores 
 where industry, investment and wealth are greatest, create a mutiplier effect, which reinforces further investment in industry, further attracting people to the area for employment.  
+
+## How to achieve demographic dividend
+1. Decrease IMR, increase LE  
+2. Natural increase, BR remain unchanged, IMR decreased  
+3. Decrease FR/BR, bulge will graduate enter working stage  
+4. $<15$, education opportunities for "bulge"  
+5. $>15$, job opportunities (economic reform, planning, infrastructure construction, FDI)
+
+## Benefits of demo. dividend
+* Increased labor supply
+* Increase in saving
+* Healthier women (since less fertility rate) and fewer social and economic pressures at home  
+* Allows parents to invest more resource per child, leading to better health and educational outcomes
+* Increasing domestic demand
+* Economic growth
+
+## Population at risks of trafficking
+Who are they?
+* Women  
+* Children  
+* Poor  
+* LGBTI  
+* Disable (mental/physical)  
+
+Why?  
+* Physical vulnerable  
+* Female as sex worker  
+* Children are demanded highly: sex abuse  
+* Low access to education: have low awareness  
+* Marginalized in society (difficult to be paid attention, difficult to get assistance)

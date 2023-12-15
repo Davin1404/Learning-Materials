@@ -49,7 +49,7 @@ $$2\pi \times \text{resonant frequency}\times \frac{\text{energy stored}}{\text{
 |Oscillating quartz crystal|$30,000$|
 
 * The larger the $Q$ factor, the sharper the resonance peak on the graph of amplitude against driving frequency.  
-* A ***high quality*** factor means a low loss of energy.  
+* A ***high quality*** factor means a low loss of energy (low damping).  
 * The $Q$ factor is approximately the number of oscillations that the system will make before its amplitude decays to zero.  
 
 ## The useful and destructive effects of resonance  

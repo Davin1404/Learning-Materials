@@ -16,7 +16,7 @@ $$U=\frac{3}{2}nRT \tag{4}$$
 $$\Delta U=\frac{3}{2}P\Delta V\tag{5}$$
 
 ## B.2.2 The first law of thermodynamics
-$$Q=\Delta U+W\tag{6}$$
+$$Q=\Delta U+W\tag{1}$$
 $U=$  *the energy transferred from the surroundings to the system.*  
 $\Delta U =$ *the increase in the internal energy of the system (this is not simply a change, it is an increase)*  
 $W=$ *the work done by the system as it expands and pushed back the surroundings.*  
@@ -25,12 +25,47 @@ $W=$ *the work done by the system as it expands and pushed back the surroundings
 |Positive|Thermal energy is **added** to the system from surrounding|**Increase** in internal energy|Work is done **by** the gas|
 |Negative|Thermal energy is **removed** from the system to surrounding|**Decrease** in internal energy|Work is done **on** the gas|
 
-### The work done in an isobaric change 
-$$W=p\Delta V \tag{7}$$
+##
 
-###  The work done for a non-isobaric change
+![ther-process](/IBDP_Physics_HL/Topic%20B%20Engineering/image/summary-of-Processes.png)
+
+##
+
+### Isobaric change (in ideal gas)
+
+$\Delta p=0$
+
+#### The work done in an isobaric change 
+$$W=p\Delta V \tag{1}$$
+
+####  The work done for a non-isobaric change
 *Total energy = Area of the curve*
 $$W_t=\sum_n W_n=\sum_n p_n \Delta V_n$$
+
+#### Relationship between variables  
+
+$$\because pV=nRT$$  
+
+$$\therefore V\frac{p}{nRT}=T$$  
+
+$$\because \Delta p = 0$$  
+
+$$\therefore \frac{p}{nRT}=\text{constant}$$  
+
+$$\therefore V\propto T \tag{2}$$
+
+
+#### Total thermal energy calculation (⚠️only in isobaric change⚠️)
+
+$$\because pV=nRT$$  
+
+$$\because \Delta p=0$$
+
+$$\therefore \cancel{\Delta p V} + p\Delta V = nR\Delta T$$  
+
+$$\therefore p\Delta V = nR\Delta T$$
+
+##
 
 ### Isothermal changes (in ideal gas)
 $\Delta U=0$  
@@ -41,15 +76,19 @@ $$pV=nRT\tag{8}$$
 
 $$P=\frac{k}{V}=constant\tag{9}$$
 
+##
+
 ### Adiabatic changes (in ideal gas)
 $Q=0$  
-No thermal energy is transferred between the system annd the surroundings
+***No*** thermal energy is ***transferred*** between the ***system*** annd the ***surroundings***
 $$\therefore \Delta U=W$$
 
 #### Adiabatic processes for monatomic gases
 $$pV^{\frac{5}{3}}=constant\tag{10}$$
 
 Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because ***work has been done***.  
+
+##
 
 ### Isovolumetric changes
 $W=0$  
