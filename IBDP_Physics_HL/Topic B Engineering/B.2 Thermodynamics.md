@@ -56,7 +56,7 @@ $$\therefore V\frac{p}{nRT}=T$$
 
 $$\because \Delta p = 0$$  
 
-$$\therefore \frac{p}{nRT}=\text{constant}$$  
+$$\because \frac{p}{nRT}=\text{constant}$$  
 
 $$\therefore V\propto T \tag{2}$$
 
