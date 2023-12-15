@@ -11,9 +11,10 @@ $R =$ *molar gas constant*
 $$\therefore U=\frac{3}{2}nN_A\frac{R}{N_A}T$$
 $$U=\frac{3}{2}nRT \tag{4}$$  
 
-### Isobaric change
+#### Ideal gas law
+$$pV=nRT\tag{5}$$  
 
-$$\Delta U=\frac{3}{2}P\Delta V\tag{5}$$
+$$\therefore \Delta p V + p\Delta V = nR\Delta T \tag{6}$$
 
 ## B.2.2 The first law of thermodynamics
 $$Q=\Delta U+W\tag{1}$$
@@ -27,7 +28,12 @@ $W=$ *the work done by the system as it expands and pushed back the surroundings
 
 ##
 
+### P-V diagrams and thermodynamic cycles
+
 ![ther-process](/IBDP_Physics_HL/Topic%20B%20Engineering/image/summary-of-Processes.png)
+
+⚠️☝️🤓⚠️ The area of the $PV$ graph is the ***work done*** $W$ by the system as it expands or pushed back the surroudings.   
+
 
 ##
 
@@ -63,41 +69,74 @@ $$\because \Delta p=0$$
 
 $$\therefore \cancel{\Delta p V} + p\Delta V = nR\Delta T$$  
 
-$$\therefore p\Delta V = nR\Delta T$$
+$$\therefore p\Delta V = nR\Delta \tag{3}T$$  
+
+$$\because Q=\Delta U+W$$  
+
+$$\because \Delta U=\frac{3}{2}nR\Delta T \text{;  }W=p \Delta V$$  
+
+$$\therefore Q = \frac{3}{2}nR\Delta T + nR\Delta T$$  
+
+$$\therefore Q =\frac{5}{2}nR\Delta T =\frac{5}{2}p\Delta V \tag{4}$$
 
 ##
 
 ### Isothermal changes (in ideal gas)
-$\Delta U=0$  
 No change in the temperature of the system, the internal energy of the system staying constant.  
-$$\therefore Q=W$$
 
-$$pV=nRT\tag{8}$$  
+$$\therefore \Delta T = 0 \space (T=\text{constant})$$  
 
-$$P=\frac{k}{V}=constant\tag{9}$$
+$$\therefore \Delta U = \frac{3}{2}nR\times \Delta T = 0 \tag{1}$$
+
+$$\therefore Q=0+W \tag{2}$$
+
+$$\therefore pV=nRT=(\text{constant}) \tag{3}$$  
+
+$$P=\frac{k}{V}=constant\tag{4}$$
 
 ##
 
 ### Adiabatic changes (in ideal gas)
-$Q=0$  
-***No*** thermal energy is ***transferred*** between the ***system*** annd the ***surroundings***
-$$\therefore \Delta U=W$$
+***No*** thermal energy is ***transferred*** between the ***system*** and the ***surroundings***
+$$Q=0\tag{1}$$
+
+$$\therefore -\Delta U=W\tag{2}$$
 
 #### Adiabatic processes for monatomic gases
-$$pV^{\frac{5}{3}}=constant\tag{10}$$
+$$pV^{\frac{5}{3}}=\text{constant}\tag{3}$$  
 
-Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because ***work has been done***.  
+Substitude with $pV=nRT$
+
+$$\therefore nRTV^{\frac{2}{3}}=\text{constant}$$  
+
+$$\because nR=\text{constant}$$  
+
+$$\therefore TV^{\frac{2}{3}}=\text{constant}\tag{4}$$
+
+☝️🤓Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because ***work has been done***.  
 
 ##
 
 ### Isovolumetric changes
-$W=0$  
+$$\because V=\text{constant}\text{; }\Delta V=0\tag{1}$$  
 No work can be done by or on the system  
-$$Q=\Delta U$$ 
-The equation of state for an isovolumetric change is: 
-$$\frac{P}{T}=constant\tag{11}$$
 
-### P-V diagrams and thermodynamic cycles
+$$\therefore W=p\Delta V=0\tag{2}$$
+
+$$\therefore Q=\Delta U \tag{3}$$ 
+The equation of state for an isovolumetric change is: 
+$$\frac{P}{T}=constant\tag{4}$$  
+
+#### Total thermal energy calculation (⚠️only in isovolumetric change⚠️)  
+
+$$\because pV=nRT$$  
+
+$$\because \Delta V=0$$
+
+$$\therefore \Delta p V + \cancel{p\Delta V} = nR\Delta T$$  
+
+$$\therefore Q =\Delta U=\frac{3}{2}nR\Delta T =\frac{3}{2}p\Delta V \tag{5}$$
+
 
 ## B.2.3 Cycles and Engines
 ### Principle of heat engine
@@ -107,8 +146,8 @@ $$\text{useful work done}=W=Q_1-Q_2$$
 
 ### The Carnot cycle
 The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
-$$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}\tag{12}$$
-$$\therefore \eta_{\text{Carnot}} = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{13}$$  
+$$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}\tag{1}$$
+$$\therefore \eta_{\text{Carnot}} = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{2}$$  
 
 $$\eta = \text{The efficiency}$$
 
@@ -123,7 +162,7 @@ It is impossible to extract energy from a hot reservoir and transfer this entire
 ### Entropy  
 A third version of the second law of thermodynamics involves the concept of entropy $S$.  
 
-$$\Delta S=\frac{\Delta Q}{T}\tag{14}$$  
+$$\Delta S=\frac{\Delta Q}{T}\tag{1}$$  
 
 $$\Delta S = \text{the increase in entropy}$$  
 
