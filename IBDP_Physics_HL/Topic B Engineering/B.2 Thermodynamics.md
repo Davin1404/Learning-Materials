@@ -144,12 +144,25 @@ Take in energy at a high temperature, reject energy at a low temperature and use
 
 $$\text{useful work done}=W=Q_1-Q_2$$  
 
+Net thermal energy flow is:
+
+$$Q_{in}-Q_{out}(Q_{out} \text{ refers to "waste heat"})$$
+
+Since no temperaure change, thus $\Delta T =0$, and $\Delta U=0$.  
+
+$$\therefore \Delta Q = \Delta W = Q_{in}-Q_{out}$$
+
+⚠️The first law of thermodynamics ***does not forbid*** $Q_{out}=0$⚠️
+
 ### The Carnot cycle
 The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
 $$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}\tag{1}$$
 $$\therefore \eta_{\text{Carnot}} = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{2}$$  
 
 $$\eta = \text{The efficiency}$$
+
+⚠️The Carnot efficiency is the **maximum** possible! ⚠️  
+☝️🤓 In real life, energy ***losses*** to surroudings (friction, heat losses, sound energy) 
 
 ## B.2.4 The Second Law of Thermodynamics  
 
@@ -158,6 +171,8 @@ It is impossible to transfer energy from a body at a lower temperature to one at
 
 ### The Kelvin (or Kelvin-Planck) version  
 It is impossible to extract energy from a hot reservoir and transfer this entirely into work.  
+
+That means ***NO*** power plant can cover ***100%*** of $Q_{in}$ into work.  
 
 ### Entropy  
 A third version of the second law of thermodynamics involves the concept of entropy $S$.  

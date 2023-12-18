@@ -64,16 +64,32 @@ where industry, investment and wealth are greatest, create a mutiplier effect, w
 * Economic growth
 
 ## Population at risks of trafficking
-Who are they?
+#### Who are they?
 * Women  
 * Children  
 * Poor  
 * LGBTI  
 * Disable (mental/physical)  
 
-Why?  
+#### Why?  
 * Physical vulnerable  
 * Female as sex worker  
 * Children are demanded highly: sex abuse  
 * Low access to education: have low awareness  
 * Marginalized in society (difficult to be paid attention, difficult to get assistance)
+
+## Anti-trafficking
+### Trafficking in Persons Report  
+#### Three main components:
+* Protection: increased efforst to protect froeign national victims as well as non-immigrants.  
+* Prosecution: off traffickers related to forced labor and sexual exploitation.  
+* Prevention: to assist other government to reduce trafficking: border control, residence registration.  
+
+### Other attempts
+* Increasing public awareness abbout the risks.  
+* having up-to-date registration of births and migration into an area.  
+* allowing trade unions, to protect worker's rights and to reduce trafficking.  
+
+### Overall
+* No single strategies, nor only single country can end human trafficking.  
+* Muti-governmental appraoch with many response is needed.  
