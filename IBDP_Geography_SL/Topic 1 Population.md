@@ -93,3 +93,12 @@ where industry, investment and wealth are greatest, create a mutiplier effect, w
 ### Overall
 * No single strategies, nor only single country can end human trafficking.  
 * Muti-governmental appraoch with many response is needed.  
+
+```mermaid
+pie
+title Test
+"test 1":15
+"test 2":20
+"test 3":500
+
+```
