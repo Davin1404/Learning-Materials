@@ -51,6 +51,8 @@ Torque of a force = force $\times$ perpendicualr distance from the line of actio
 
 Only the force that has a ***non-zero lever*** arm about the axis can provide a torque about the axis of the cylinder.  
 
+$$\tau=Fr\sin \theta \tag{1}$$
+
 $Unit: Nm$
 
 ### Torque of a couple  

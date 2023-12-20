@@ -139,23 +139,31 @@ $$\therefore Q =\Delta U=\frac{3}{2}nR\Delta T =\frac{3}{2}p\Delta V \tag{5}$$
 
 
 ## B.2.3 Cycles and Engines
-### Principle of heat engine
+### The Carnot Cycle: the Principle of heat engine
 Take in energy at a high temperature, reject energy at a low temperature and use the remainder of the energy to do work on the system.  
 
 $$\text{useful work done}=W=Q_1-Q_2$$  
 
-Net thermal energy flow is:
+***Net thermal energy flow*** is:
 
 $$Q_{in}-Q_{out}(Q_{out} \text{ refers to "waste heat"})$$
 
-Since no temperaure change, thus $\Delta T =0$, and $\Delta U=0$.  
+Since no temperaure change (⚠️because there is only ***isothermal*** and ***adiabatic*** change in the Carnot Cycle⚠️), thus $\Delta T =0$, $\Delta U=0$.  
 
 $$\therefore \Delta Q = \Delta W = Q_{in}-Q_{out}$$
 
 ⚠️The first law of thermodynamics ***does not forbid*** $Q_{out}=0$⚠️
 
-### The Carnot cycle
-The area enclosed by the curve is the net work done by the gas on the surroundings in one cycle.  
+##
+
+### The Carnot cycle Graph
+The area ***enclosed*** by the curve is the ***net work done*** by the gas on the surroundings in one cycle.  
+
+![CarnotCycle](/IBDP_Physics_HL/Topic%20B%20Engineering/image/CarnotCycle.png)
+
+##
+
+### Efficiency
 $$\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}\tag{1}$$
 $$\therefore \eta_{\text{Carnot}} = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{2}$$  
 
