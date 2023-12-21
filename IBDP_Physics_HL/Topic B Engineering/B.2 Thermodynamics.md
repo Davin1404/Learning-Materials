@@ -94,6 +94,8 @@ $$\therefore pV=nRT=(\text{constant}) \tag{3}$$
 
 $$P=\frac{k}{V}=constant\tag{4}$$
 
+☝️🤓 The isothermal process ***would have to be conducted very slowly***.  (As the ***gradient*** of the isothermal process curve in $PV$ graph is not ***steep***)
+
 ##
 
 ### Adiabatic changes (in ideal gas)
@@ -152,7 +154,9 @@ Since no temperaure change (⚠️because there is only ***isothermal*** and ***
 
 $$\therefore \Delta Q = \Delta W = Q_{in}-Q_{out}$$
 
-⚠️The first law of thermodynamics ***does not forbid*** $Q_{out}=0$⚠️
+* ⚠️The first law of thermodynamics ***does not forbid*** $Q_{out}=0$⚠️  
+  
+* ☝️🤓A Carnot cycle is of **little** use for a partical heat engine since the isothermal process ***would have to be conducted very slowly***.  
 
 ##
 
