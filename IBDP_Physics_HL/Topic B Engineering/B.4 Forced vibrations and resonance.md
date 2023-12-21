@@ -38,7 +38,11 @@ $Q$ has no unit.
 
 $$Q=2\pi \frac{\text{energy stored}}{\text{energy dissipated per cycle}}$$  
 
-$$2\pi \times \text{resonant frequency}\times \frac{\text{energy stored}}{\text{power loss}}$$  
+$$\because E_k = \frac{1}{2}m\omega^2(x^2_0-x^2);\space E_T=\frac{1}{2}m\omega^2x^2_0$$
+
+$$\therefore Q=2\pi \frac{E_T}{E_k}=2\pi \frac{x^2_0}{x^2_0-x^2}$$
+
+$$Q=2\pi \times \text{resonant frequency}\times \frac{\text{energy stored}}{\text{power loss}}$$  
 
 |Oscillator|Q factor|
 |---|---|

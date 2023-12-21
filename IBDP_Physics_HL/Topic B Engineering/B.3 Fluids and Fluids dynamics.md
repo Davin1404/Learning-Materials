@@ -48,7 +48,7 @@ $$B=\rho _f V_f g\tag{7}$$
 $$B = \text{Buoyancy (upthrust) force}$$
 $$V_f = \text{Volume of fluid that the object displaces}$$  
 
-#### ⚠️The origin of the buoyancy force:   
+#### ⚠️The origin of the buoyancy force⚠️:   
 Pressure in a liquid increases with depth, so pressure at bottom of bubble greater than pressure at top.  
 
 ##
