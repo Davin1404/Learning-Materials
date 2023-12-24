@@ -82,7 +82,7 @@ $$\therefore Q =\frac{5}{2}nR\Delta T =\frac{5}{2}p\Delta V \tag{4}$$
 ##
 
 ### Isothermal changes (in ideal gas)
-No change in the temperature of the system, the internal energy of the system staying constant.  
+No change in the temperature of the system, ***the internal energy*** $\Delta U$ ***of the system staying constant***.  
 
 $$\therefore \Delta T = 0 \space (T=\text{constant})$$  
 
@@ -121,7 +121,7 @@ $$\therefore TV^{\frac{2}{3}}=\text{constant}\tag{4}$$
 
 ### Isovolumetric changes
 $$\because V=\text{constant}\text{; }\Delta V=0\tag{1}$$  
-No work can be done by or on the system  
+***No*** work can be ***done*** by or on the system  
 
 $$\therefore W=p\Delta V=0\tag{2}$$
 

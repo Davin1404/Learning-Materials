@@ -94,11 +94,12 @@ where industry, investment and wealth are greatest, create a mutiplier effect, w
 * No single strategies, nor only single country can end human trafficking.  
 * Muti-governmental appraoch with many response is needed.  
 
+## Gender equality
+
+### The reason of gender equality 
+
 ```mermaid
-pie
-title Test
-"test 1":15
-"test 2":20
-"test 3":500
+flowchart
+id1(["Children as economic asset"])-->id2["agricultural farm work (higher productivity)"]-->id3(["Men/Son preference"])
 
 ```
