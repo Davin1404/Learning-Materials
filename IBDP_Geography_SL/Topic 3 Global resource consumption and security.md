@@ -79,9 +79,108 @@ It includes the biologically productive area (or biocapacity) needed for
 * A ***meat-eating diet***
 * ***Greenhouse gas emissions*** from agriculture
 
+# Water
 ## Virtual (embedded) water
 * The concept 
   * the way in which water is transferred from one country to another through its exports. These exports may be foods, flowers or manufactured goods.  
 * For example
   * it allows countries with limited water resources to "outsource" their water from countries that have more water resources. 
   * Mexico imports maize, and thereby saves 12 billion cubic metres of water each year.  
+
+# Food
+## Trends 1: food intake increasing, diets changing
+* Food intake (measured in calorie intake)
+  * steadily increased on a global scale. While calorie intake has remained steady in sub-Saharan Africa, it has increased dramatically in East Asia, the Middle East and North Africa.  
+* A change in diet away from cereals towards a more varied diet including meat, vegetables and dairy products. This pattern is most clearly observed as LICs become MICs.  
+
+### Reasons for consuming more meat
+1. Declining meat price
+   1. Food consumption is price-dependent
+   2. However, demand is "inelastic", which means that a person's consumption of food will only increase up to a certain point, even if they have more money available to pay for it.  
+2. Increasing urbanization
+   1. Fast-food industry
+   2. It has been estimated that the number of people that can be supported on 1 hectare varies
+      1. 22 for potatoes
+      2. 19 for rice
+      3. 2 for lamb
+      4. 1 for beef
+
+## Trend 2: falling growth rate of food production and crop yield
+### Reasons
+Natural hazards (fires, floods, drought), global climiate change, and the use of land to produce biofuels.  
+
+### How to increase crop production?
+* Expanding the are farmed
+* Multicropping, often using irrigation 
+* Using high-yielding varieties or genetically modified organisms. 
+* Reducing food losses
+* Improving food storage
+
+# Energy
+### Hydrocarbon
+Non-renewal energy: Gas, Coal, Oil, "firewood"(有争议)
+
+## Fossil fuels 
+### Coal
+|Adv|Dis|
+|---|---|
+
+### Gas
+|Adv|Dis|
+|---|---|
+
+### Oil
+|Adv|Dis|
+|---|---|
+
+## Renewnable energy
+### HEP
+|Adv|Dis|
+|---|---|
+
+### Tidal
+|Adv|Dis|
+|---|---|
+
+### Solar
+|Adv|Dis|
+|---|---|
+
+### Wind
+|Adv|Dis|
+|---|---|
+
+### Biofuel
+|Adv|Dis|
+|---|---|
+
+### Geothermal
+|Adv|Dis|
+|---|---|
+
+## Nuclear energy
+|Adv|Dis|
+|---|---|
+
+## Why higher energy insecurity 
+* Increased demand 
+  * especially from newly industrializing countries (NICs)
+* Decreased reserves as supplies are used up
+* Geopolitical developments
+  * countries with oli resources such as Russia have been able to "flex their economic muscles" in response to the decreasing resources in the Middle East and the North Sea
+* Global warming and natural disasters such as Hurricane Katrina (2005), which have increased awareness about the misuse of energy resources
+* Terrorist activity 
+  * such as in Syria
+* The conflict 
+  * such as Russia and Ukraine
+
+## Changing global energy demand 
+The major consumers of energy are the HICs.  
+
+The world continues to use fossil fuels despite the growth in renewable energy sources. (recoverable resources, existing infrastructure, energy companies as important sources of revenus for governments, powerful lobbyists)
+
+The geographical pattern of demand is projected to shift from the OECD region to NICs
+
+# Water - food - energy "nexus"
+### Nexus
+A complicated series of connections between different things. 
