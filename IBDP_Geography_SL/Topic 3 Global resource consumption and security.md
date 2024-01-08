@@ -139,6 +139,8 @@ Non-renewal energy: Gas, Coal, Oil, "firewood"(有争议)
 |---|---|
 
 ### Tidal
+Tidal energy is a form of hydropower that relies on the rising and falling of the sea levels and tidal energy devices convert the energy gained from the tides into electricity.
+
 |Adv|Dis|
 |---|---|
 
@@ -161,6 +163,7 @@ Non-renewal energy: Gas, Coal, Oil, "firewood"(有争议)
 ## Nuclear energy
 |Adv|Dis|
 |---|---|
+|reliable, large-scale, controllable source, a low-carbon energy source with a small land footprint|high investment costs, radioactive waste, nuclear safety, and sustainability of uranium resources|
 
 ## Why higher energy insecurity 
 * Increased demand 
@@ -184,3 +187,4 @@ The geographical pattern of demand is projected to shift from the OECD region to
 # Water - food - energy "nexus"
 ### Nexus
 A complicated series of connections between different things. 
+
