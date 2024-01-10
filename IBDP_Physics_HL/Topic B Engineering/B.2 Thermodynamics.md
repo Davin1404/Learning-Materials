@@ -10,6 +10,7 @@ $$\because k_B=\frac{R}{N_A}\tag{3}$$
 $R =$ *molar gas constant*
 $$\therefore U=\frac{3}{2}nN_A\frac{R}{N_A}T$$
 $$U=\frac{3}{2}nRT \tag{4}$$  
+> In most of the time $nR=\text{constant}$
 
 #### Ideal gas law
 $$pV=nRT\tag{5}$$  
