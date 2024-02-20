@@ -20,7 +20,7 @@ Reduction in amplitude or energy of oscillations due to resistive forces.
 |---|---|
 |Frequency at which object is made to oscillate|Frequency at which object vibrates when free to do so |
 
-Maximum amplitude of vibration of oscillating body when forced frequency equals natural frequency (of vibration).  
+Maximum amplitude of vibration of oscillating body ***when forced frequency equals natural frequency (of vibration)***.  
 
 * ☝️🤓Resonant frequency = natural frequency 
 
