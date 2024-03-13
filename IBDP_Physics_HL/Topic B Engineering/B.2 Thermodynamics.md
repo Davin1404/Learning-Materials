@@ -116,7 +116,7 @@ $$\because nR=\text{constant}$$
 
 $$\therefore TV^{\frac{2}{3}}=\text{constant}\tag{4}$$
 
-☝️🤓Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because ***work has been done***.  
+☝️🤓Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because ***work has been done***. Furthermore, since an adiabatic process will only change the temperature of the gas, the curve of adiabatic process on PV diagram must be the steeper one. 
 
 ##
 
