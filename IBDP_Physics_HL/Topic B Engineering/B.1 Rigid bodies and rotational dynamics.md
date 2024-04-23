@@ -46,6 +46,7 @@ $$Unit: kg\space m^2$$
 $$I = \sum mr^2$$
 
 ## B.1.3 Torque ( $\tau$ ) - the turning effect of the force  
+Torque is a measure of how much a force acting on an object causes that object to rotate.  
 ***Equation***:   
 Torque of a force = force $\times$ perpendicualr distance from the line of action the force to a point.  
 
