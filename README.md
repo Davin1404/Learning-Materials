@@ -16,4 +16,8 @@ A place for me to put some note
 # Mathematics in R Markdown
 https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
 
+>[!info]
+>the is a test of obsidian-git
+
+
 
