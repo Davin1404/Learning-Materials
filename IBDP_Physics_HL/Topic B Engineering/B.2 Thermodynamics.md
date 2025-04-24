@@ -5,13 +5,13 @@
 The internal energy $U$ of a system is the total of the potential ennergy and the random kinetic energy of all the particles making up the system.
 
 $$
-U=E_k +E_p\space \tag{1}
+U=E_k +E_p\space
 $$
 
 For ideal gas that $E_p = 0$: ($k_B=6.02\times 10^{23}$)
 
 $$
-U=E_k=\frac{3}{2}Nk_BT=\frac{3}{2}nN_Ak_BT\tag{2}
+U=E_k=\frac{3}{2}Nk_BT=\frac{3}{2}nN_Ak_BT
 $$
 
 $$
@@ -21,7 +21,7 @@ $$
 $n =$ _amount of substance (mol)_
 
 $$
-\because k_B=\frac{R}{N_A}\tag{3}
+\because k_B=\frac{R}{N_A}
 $$
 
 $R =$ _molar gas constant_
@@ -47,7 +47,7 @@ $$
 ## B.2.2 The first law of thermodynamics
 
 $$
-Q=\Delta U+W\tag{1}
+Q=\Delta U+W
 $$
 
 $U=$ _the energy transferred from the surroundings to the system._
@@ -76,7 +76,7 @@ $\Delta p=0$
 #### The work done in an isobaric change
 
 $$
-W=p\Delta V \tag{1}
+W=p\Delta V
 $$
 
 #### The work done for a non-isobaric change
@@ -106,7 +106,7 @@ $$
 $$
 
 $$
-\therefore V\propto T \tag{2}
+\therefore V\propto T
 $$
 
 #### Total thermal energy calculation (⚠️only in isobaric change⚠️)
@@ -124,7 +124,7 @@ $$
 $$
 
 $$
-\therefore p\Delta V = nR\Delta \tag{3}T
+\therefore p\Delta V = nR\Delta
 $$
 
 $$
@@ -140,7 +140,7 @@ $$
 $$
 
 $$
-\therefore Q =\frac{5}{2}nR\Delta T =\frac{5}{2}p\Delta V \tag{4}
+\therefore Q =\frac{5}{2}nR\Delta T =\frac{5}{2}p\Delta V
 $$
 
 ##
@@ -154,19 +154,19 @@ $$
 $$
 
 $$
-\therefore \Delta U = \frac{3}{2}nR\times \Delta T = 0 \tag{1}
+\therefore \Delta U = \frac{3}{2}nR\times \Delta T = 0
 $$
 
 $$
-\therefore Q=0+W \tag{2}
+\therefore Q=0+W
 $$
 
 $$
-\therefore pV=nRT=(\text{constant}) \tag{3}
+\therefore pV=nRT=(\text{constant})
 $$
 
 $$
-P=\frac{k}{V}=constant\tag{4}
+P=\frac{k}{V}=constant
 $$
 
 ☝️🤓 The isothermal process **_would have to be conducted very slowly_**. (As the **_gradient_** of the isothermal process curve in $PV$ graph is not **_steep_**)
@@ -178,17 +178,17 @@ $$
 **_No_** thermal energy is **_transferred_** between the **_system_** and the **_surroundings_**
 
 $$
-Q=0\tag{1}
+Q=0
 $$
 
 $$
-\therefore -\Delta U=W\tag{2}
+\therefore -\Delta U=W
 $$
 
 #### Adiabatic processes for monatomic gases
 
 $$
-pV^{\frac{5}{3}}=\text{constant}\tag{3}
+pV^{\frac{5}{3}}=\text{constant}
 $$
 
 Substitude with $pV=nRT$
@@ -202,7 +202,7 @@ $$
 $$
 
 $$
-\therefore TV^{\frac{2}{3}}=\text{constant}\tag{4}
+\therefore TV^{\frac{2}{3}}=\text{constant}
 $$
 
 ☝️🤓Although during an adiabatic process there is no thermal enery transfer with the surroudings, the temperature of the gas will change because **_work has been done_**. Furthermore, since an adiabatic process will only change the temperature of the gas, the curve of adiabatic process on PV diagram must be the steeper one.
@@ -212,23 +212,23 @@ $$
 ### Isovolumetric changes
 
 $$
-\because V=\text{constant}\text{; }\Delta V=0\tag{1}
+\because V=\text{constant}\text{; }\Delta V=0
 $$
 
 **_No_** work can be **_done_** by or on the system
 
 $$
-\therefore W=p\Delta V=0\tag{2}
+\therefore W=p\Delta V=0
 $$
 
 $$
-\therefore Q=\Delta U \tag{3}
+\therefore Q=\Delta U
 $$
 
 The equation of state for an isovolumetric change is:
 
 $$
-\frac{P}{T}=constant\tag{4}
+\frac{P}{T}=constant
 $$
 
 #### Total thermal energy calculation (⚠️only in isovolumetric change⚠️)
@@ -246,7 +246,7 @@ $$
 $$
 
 $$
-\therefore Q =\Delta U=\frac{3}{2}nR\Delta T =\frac{3}{2}p\Delta V \tag{5}
+\therefore Q =\Delta U=\frac{3}{2}nR\Delta T =\frac{3}{2}p\Delta V
 $$
 
 ## B.2.3 Cycles and Engines
@@ -287,11 +287,11 @@ The area **_enclosed_** by the curve is the **_net work done_** by the gas on th
 ### Efficiency
 
 $$
-\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}\tag{1}
+\eta =\frac{\text{useful work done}}{\text{energy input}}=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}
 $$
 
 $$
-\therefore \eta_{\text{Carnot}} = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}\tag{2}
+\therefore \eta_{\text{Carnot}} = 1-\frac{Q_2}{Q_1}=1-\frac{T_{\text{cold}}(\text{K})}{T_{\text{hot}}(\text{K})}
 $$
 
 $$
@@ -318,7 +318,7 @@ That means **_NO_** power plant can cover **_100%_** of $Q_{in}$ into work.
 A third version of the second law of thermodynamics involves the concept of entropy $S$.
 
 $$
-\Delta S=\frac{\Delta Q}{T}\tag{1}
+\Delta S=\frac{\Delta Q}{T}
 $$
 
 $$
