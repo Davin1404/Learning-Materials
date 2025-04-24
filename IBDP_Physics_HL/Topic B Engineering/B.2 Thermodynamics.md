@@ -31,17 +31,19 @@ $$
 $$
 
 $$
-U=\frac{3}{2}nRT \tag{4}
+U=\frac{3}{2}nRT
 $$
 
 > In most of the time $nR=\text{constant}$
 
 #### Ideal gas law
 
-$$pV=nRT\tag{5}$$
+$$
+pV=nRT
+$$
 
 $$
-\therefore \Delta p V + p\Delta V = nR\Delta T \tag{6}
+\therefore \Delta p V + p\Delta V = nR\Delta T
 $$
 
 ## B.2.2 The first law of thermodynamics
